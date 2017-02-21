@@ -1,0 +1,920 @@
+BNetzA_ID,Anmerkung,Baujahr,Betriebstand,Energietraeger,KWK,Kraftwerksart,Kraftwerksname,Leistung,Unternehmen,Voraus_Stillegung
+BNA0005,Berechneter Zeitpunkt der Stillegung,1990,in Betrieb,Erdgas,Nein,,Ahrensfelde,37.5,Vattenfall Europe Generation AG,2030
+BNA0006,Berechneter Zeitpunkt der Stillegung,1990,in Betrieb,Erdgas,Nein,,Ahrensfelde,37.5,Vattenfall Europe Generation AG,2030
+BNA0007,Berechneter Zeitpunkt der Stillegung,1990,in Betrieb,Erdgas,Nein,,Ahrensfelde,37.5,Vattenfall Europe Generation AG,2030
+BNA0008,Berechneter Zeitpunkt der Stillegung,1990,in Betrieb,Erdgas,Nein,,Ahrensfelde,37.5,Vattenfall Europe Generation AG,2030
+BNA0010a,"Keine Stillegung, da KWK-Betrieb",1933,in Betrieb,Laufwasser,Nein,,RADAG,79.5,Rheinkraftwerk Albbruck- Dogern AG,--
+BNA0012b,Berechneter Zeitpunkt der Stillegung,1947,in Betrieb,Erdgas,Ja,,Werkskraftwerk Sappi Alfeld,20.0,Sappi Alfeld GmbH,--
+BNA0012d,Berechneter Zeitpunkt der Stillegung,1994,vorläufig stillgelegt,Mineralölprodukte,Nein,,Werkskraftwerk Sappi Alfeld,2.8,Sappi Alfeld GmbH,2039
+BNA0015,Berechneter Zeitpunkt der Stillegung,1997,in Betrieb,Erdgas,Ja,,Heizkraftwerk Altbach/Deizisau,65.0,EnBW Energie Baden-Württemberg AG,--
+BNA0016,Berechneter Zeitpunkt der Stillegung,1971,in Betrieb,Erdgas,Nein,,Heizkraftwerk Altbach/Deizisau,50.0,EnBW Energie Baden-Württemberg AG,2011
+BNA0017,Berechneter Zeitpunkt der Stillegung,1973,in Betrieb,Erdgas,Nein,,Heizkraftwerk Altbach/Deizisau,57.0,EnBW Energie Baden-Württemberg AG,2013
+BNA0018,Berechneter Zeitpunkt der Stillegung,1975,in Betrieb,Erdgas,Nein,,Heizkraftwerk Altbach/Deizisau,81.0,EnBW Energie Baden-Württemberg AG,2015
+BNA0019,Berechneter Zeitpunkt der Stillegung,1997,in Betrieb,Steinkohle,Ja,,Heizkraftwerk Altbach/Deizisau,336.0,EnBW Energie Baden-Württemberg AG,2042
+BNA0020,Berechneter Zeitpunkt der Stillegung,1985,in Betrieb,Steinkohle,Ja,,Heizkraftwerk Altbach/Deizisau,433.0,EnBW Energie Baden-Württemberg AG,2030
+BNA0024,"Keine Stillegung, da KWK-Betrieb",1989,in Betrieb,Laufwasser,Nein,,KW Amlach,60.0,TIWAG-Tiroler Wasserkraft AG,--
+BNA0025,Berechneter Zeitpunkt der Stillegung,1993,in Betrieb,Erdgas,Ja,,Kesselhaus Zuckerfabrik,15.1,Suiker Unie GmbH,--
+BNA0033,Berechneter Zeitpunkt der Stillegung,2004,in Betrieb,Erdgas,Ja,,Gasturbine,28.75,Stadtwerke Augsburg Energie GmbH,--
+BNA0042,"Keine Stillegung, da KWK-Betrieb",1944,in Betrieb,Laufwasser,Nein,,Egglfing,40.35,Innwerk AG,--
+BNA0045,"Keine Stillegung, da KWK-Betrieb",1959,in Betrieb,Laufwasser,nein,,Rheinkraftwerk Säckingen,36.8,"EnBW Energie Baden-Württemberg AG /
+Energiedienst AG",--
+BNA0046,"Keine Stillegung, da KWK-Betrieb",1966,in Betrieb,Pumpspeicher,Nein,,Säckingen,360.0,Schluchseewerk Aktiengesellschaft,--
+BNA0051,Berechneter Zeitpunkt der Stillegung,1993,in Betrieb,Erdgas,Ja,,KWK-Anlage Barby,18.0,Cargill Deutschland GmbH,--
+BNA0059b,Berechneter Zeitpunkt der Stillegung,2013,in Betrieb,Erdgas,Ja,,"GuD Baunatal, VW Werksgelände",78.0,Volkswagen AG,--
+BNA0065,"Keine Stillegung, da KWK-Betrieb",1970,in Betrieb,Laufwasser,Nein,,Bergheim,23.7,Donau-Wasserkraft AG,--
+BNA0067,Berechneter Zeitpunkt der Stillegung,1981,in Betrieb,Steinkohle,Ja,,Bergkamen,717.0,RWE Generation SE,2026
+BNA0073,Berechneter Zeitpunkt der Stillegung,1996,in Betrieb,Erdgas,Ja,GuD,Mitte,444.0,Vattenfall Europe Wärme AG,--
+BNA0074,Berechneter Zeitpunkt der Stillegung,1975,in Betrieb,Erdgas,Ja,,Charlottenburg,211.0,Vattenfall Europe Wärme AG,--
+BNA0075,Berechneter Zeitpunkt der Stillegung,1972,in Betrieb,Erdgas,Ja,,Lichterfelde,144.0,Vattenfall Europe Wärme AG,--
+BNA0076,Berechneter Zeitpunkt der Stillegung,1974,in Betrieb,Erdgas,Ja,,Lichterfelde,144.0,Vattenfall Europe Wärme AG,--
+BNA0080,Berechneter Zeitpunkt der Stillegung,1973,Sonderfall,Erdgas,Ja,,Lichterfelde,144.0,Vattenfall Europe Wärme AG,--
+BNA0081,Berechneter Zeitpunkt der Stillegung,1981,in Betrieb,Braunkohle,Ja,,Klingenberg,164.0,Vattenfall Europe Wärme Aktiengesellschaft,2026
+BNA0082,Berechneter Zeitpunkt der Stillegung,1969,in Betrieb,Steinkohle,Ja,,Reuter,124.0,Vattenfall Europe Wärme Aktiengesellschaft,2014
+BNA0083,Berechneter Zeitpunkt der Stillegung,1977,in Betrieb,Mineralölprodukte,Ja,,Wilmersdorf,276.0,Vattenfall Europe Wärme AG,2022
+BNA0084,"Keine Stillegung, da KWK-Betrieb",1998,in Betrieb,Abfall,Ja,,Reuter,36.0,Vattenfall Europe Wärme Aktiengesellschaft,--
+BNA0085a,Berechneter Zeitpunkt der Stillegung,1990,in Betrieb,Steinkohle,Ja,,Moabit,89.0,Vattenfall Europe Wärme Aktiengesellschaft,2035
+BNA0085b,Berechneter Zeitpunkt der Stillegung,1971,in Betrieb,Mineralölprodukte,Nein,,Moabit,51.0,Vattenfall Europe Wärme Aktiengesellschaft,2016
+BNA0086,Berechneter Zeitpunkt der Stillegung,1987,in Betrieb,Steinkohle,Ja,,Reuter West,282.0,Vattenfall Europe Wärme AG,2032
+BNA0087,Berechneter Zeitpunkt der Stillegung,1988,in Betrieb,Steinkohle,Ja,,Reuter West,282.0,Vattenfall Europe Wärme AG,2033
+BNA0088a,"Keine Stillegung, da KWK-Betrieb",2010,in Betrieb,Abfall,Ja,,Dampfturbinenanlage der EBS-Kessel,35.0,Solvay Chemicals GmbH,--
+BNA0088b,Berechneter Zeitpunkt der Stillegung,1994,in Betrieb,Erdgas,Ja,,Industriekraftwerk Bernburg (IKB),66.0,Solvay Chemicals GmbH,--
+BNA0093,Berechneter Zeitpunkt der Stillegung,1983,in Betrieb,Steinkohle,Nein,,Kraftwerk Bexbach,721.0,EnBW Energie Baden-Württemberg AG,2028
+BNA0097,"Keine Stillegung, da KWK-Betrieb",1981,in Betrieb,Abfall,Ja,,MVA Bielefeld,34.0,MVA Bielefeld-Herford GmbH,--
+BNA0098,Berechneter Zeitpunkt der Stillegung,1978,in Betrieb,Erdgas,Ja,,HKW Schildescher Straße,23.5,Stadtwerke Bielefeld GmbH,--
+BNA0099,Von der BNetzA Terminiert,1975,Sonderfall,Erdgas,Nein,,Gasturbinenkraftwerk Bielefeld Ummeln,55.0,Gemeinschaftskraftwerk Veltheim GmbH,2015
+BNA0100,Berechneter Zeitpunkt der Stillegung,2005,in Betrieb,Erdgas,ja,GuD,GuD Kraftwerk Hillegossen,37.45,Stadtwerke Bielefeld GmbH,--
+BNA0101,Berechneter Zeitpunkt der Stillegung,1966,in Betrieb,Erdgas,Ja,,HKW Schildescher Straße,53.0,Stadtwerke Bielefeld GmbH,--
+BNA0105,Berechneter Zeitpunkt der Stillegung,2000,in Betrieb,Erdgas,Ja,,GuD Bitterfeld,106.0,envia THERM GmbH,--
+BNA0110,Berechneter Zeitpunkt der Stillegung,2004,in Betrieb,Erdgas,Ja,,Bochum,20.7,RWE Generation SE,--
+BNA0111,Berechneter Zeitpunkt der Stillegung,1975,in Betrieb,Erdgas,Ja,,HKW Hiltrop,30.3,Stadtwerke Bochum Holding GmbH,--
+BNA0115,Berechneter Zeitpunkt der Stillegung,2000,in Betrieb,Braunkohle,Ja,,Lippendorf,875.0,Vattenfall Europe Generation AG,2045
+BNA0116,Berechneter Zeitpunkt der Stillegung,1999,in Betrieb,Braunkohle,Ja,,Braunkohlekraftwerk Lippendorf,875.0,EnBW Energie Baden-Württemberg AG,2044
+BNA0117a,"Keine Stillegung, da KWK-Betrieb",1991,in Betrieb,Abfall,Ja,,Heizkraftwerk Karlstraße,12.0,Energie- und Wasserversorgung Bonn/Rhein-Sieg GmbH,--
+BNA0117b,Berechneter Zeitpunkt der Stillegung,2013,in Betrieb,Erdgas,Ja,,Heizkraftwerk Karlstraße,95.0,Energie- und Wasserversorgung Bonn/Rhein-Sieg GmbH,--
+BNA0122,Berechneter Zeitpunkt der Stillegung,1979,in Betrieb,Braunkohle,Ja,,Boxberg,465.0,Vattenfall Europe Generation AG,2024
+BNA0123,Berechneter Zeitpunkt der Stillegung,1980,in Betrieb,Braunkohle,Ja,,Boxberg,465.0,Vattenfall Europe Generation AG,2025
+BNA0124,Berechneter Zeitpunkt der Stillegung,2000,in Betrieb,Braunkohle,Ja,,Boxberg,857.0,Vattenfall Europe Generation AG,2045
+BNA0129,Berechneter Zeitpunkt der Stillegung,1997,in Betrieb,Erdgas,Ja,,HKW,36.0,Stadtwerke Brandenburg an der Havel GmbH,--
+BNA0130,Berechneter Zeitpunkt der Stillegung,1994,in Betrieb,Erdgas,Nein,,Kirchmöser,160.0,E.ON Kraftwerke GmbH,2034
+BNA0135,Berechneter Zeitpunkt der Stillegung,1971,in Betrieb,Erdgas,Ja,,HKW-Mitte,20.0,Braunschweiger Versorgungs-AG & Co. KG,--
+BNA0136,Berechneter Zeitpunkt der Stillegung,2010,in Betrieb,Erdgas,Ja,GuD,HKW-Mitte,74.0,Braunschweiger Versorgungs-AG & Co. KG,--
+BNA0137,Berechneter Zeitpunkt der Stillegung,1965,in Betrieb,Erdgas,Ja,,HKW-Nord,25.0,Braunschweiger Versorgungs-AG & Co. KG,--
+BNA0138,Berechneter Zeitpunkt der Stillegung,1984,in Betrieb,Steinkohle,Ja,,HKW-Mitte,43.3,Braunschweiger Versorgungs-AG & Co. KG,2029
+BNA0139,"Keine Stillegung, da KWK-Betrieb",2009,in Betrieb,Abfall,Nein,,KW Hafen,33.0,swb Entsorgung GmbH & Co. KG,--
+BNA0140,Von der BNetzA Terminiert,1972,vorläufig stillgelegt,Erdgas,Ja,,KW Hastedt,155.0,swb Erzeugung GmbH & Co. KG,2015
+BNA0141,Berechneter Zeitpunkt der Stillegung,1974,in Betrieb,Mineralölprodukte,Nein,,KW Mittelsbüren,88.0,swb Erzeugung GmbH & Co. KG,2019
+BNA0142,,1975,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Nein,,KW Mittelsbüren,150.0,swb Erzeugung GmbH & Co. KG,
+BNA0144,Berechneter Zeitpunkt der Stillegung,1989,in Betrieb,Steinkohle,Ja,,KW Hastedt,119.0,swb Erzeugung GmbH & Co. KG,2034
+BNA0145,Von der BNetzA Terminiert,1968,vorläufig stillgelegt,Steinkohle,Ja,,KW Hafen,127.0,swb Erzeugung GmbH & Co. KG,2015
+BNA0146,Berechneter Zeitpunkt der Stillegung,1979,in Betrieb,Steinkohle,Ja,,KW Hafen,300.0,swb Erzeugung GmbH & Co. KG,2024
+BNA0147,Berechneter Zeitpunkt der Stillegung,1969,in Betrieb,Steinkohle,Nein,,Farge,350.0,GDF SUEZ Energie Deutschland AG,2014
+BNA0156b,Berechneter Zeitpunkt der Stillegung,1996,in Betrieb,Erdgas,Ja,,Egger Kraftwerk Briilon,13.5,Egger Kraftwerk Brilon GmbH,--
+BNA0157,Von der BNetzA Terminiert,1986,in Betrieb,Kernenergie,Nein,,Brokdorf,1410.0,E.ON Kernkraft GmbH,2021
+BNA0161,Berechneter Zeitpunkt der Stillegung,1973,in Betrieb,Mineralölprodukte,Nein,,Brunsbüttel,63.5,Vattenfall Europe Generation AG,2018
+BNA0162,Berechneter Zeitpunkt der Stillegung,1973,in Betrieb,Mineralölprodukte,Nein,,Brunsbüttel,63.5,Vattenfall Europe Generation AG,2018
+BNA0163,Berechneter Zeitpunkt der Stillegung,1973,in Betrieb,Mineralölprodukte,Nein,,Brunsbüttel,63.5,Vattenfall Europe Generation AG,2018
+BNA0164,Berechneter Zeitpunkt der Stillegung,1973,in Betrieb,Mineralölprodukte,Nein,,Brunsbüttel,63.5,Vattenfall Europe Generation AG,2018
+BNA0172,Berechneter Zeitpunkt der Stillegung,2001,in Betrieb,Erdgas,Ja,,Dampfkraftwerk BGH - O1,178.0,Wacker Chemie AG,--
+BNA0173,"Keine Stillegung, da KWK-Betrieb",1922,in Betrieb,Laufwasser,Nein,,Alzwerke GmbH,45.0,Wacker Chemie AG,--
+BNA0174,Berechneter Zeitpunkt der Stillegung,2002,in Betrieb,Erdgas,Ja,,Industriepark Werk Gendorf,48.96,InfraServ GmbH & Co. Gendorf KG,--
+BNA0177,Berechneter Zeitpunkt der Stillegung,1988,in Betrieb,Braunkohle,Ja,,HKW Chemnitz  Nord II,56.8,eins energie in sachsen GmbH & Co. KG,2033
+BNA0178,Berechneter Zeitpunkt der Stillegung,1986,in Betrieb,Erdgas,Ja,,HKW Chemnitz  Nord II,57.2,eins energie in sachsen GmbH & Co. KG,--
+BNA0179,Berechneter Zeitpunkt der Stillegung,1990,in Betrieb,Braunkohle,Ja,,HKW Chemnitz  Nord II,90.8,eins energie in sachsen GmbH & Co. KG,2035
+BNA0183,Berechneter Zeitpunkt der Stillegung,1999,in Betrieb,Braunkohle,Ja,,HKW Cottbus,74.0,HKW Heizkraftwerksgesellschaft Cottbus mbH,2044
+BNA0194,Berechneter Zeitpunkt der Stillegung,1996,in Betrieb,Braunkohle,ja,,Kraftwerk Dessau,49.0,Kraftwerk Dessau GmbH,2041
+BNA0196,Berechneter Zeitpunkt der Stillegung,1936,in Betrieb,Braunkohle,Ja,,Deuben,67.0,Mitteldeutsche Braunkohlengesellschaft mbH,1981
+BNA0199,Berechneter Zeitpunkt der Stillegung,2000,in Betrieb,Erdgas,Ja,GuD,Dormagen,586.3,RWE Generation SE,--
+BNA0202,Berechneter Zeitpunkt der Stillegung,2004,in Betrieb,Erdgas,Ja,,Dortmund,26.0,RWE Generation SE,--
+BNA0203,Von der BNetzA Terminiert,1971,in Betrieb,Steinkohle,Ja,,Knepper,345.0,E.ON Kraftwerke GmbH,2014
+BNA0207,Berechneter Zeitpunkt der Stillegung,1995,in Betrieb,Erdgas,Ja,,HKW Dresden-Nossener Brücke,250.0,DREWAG Stadtwerke Dresden GmbH,--
+BNA0211,Berechneter Zeitpunkt der Stillegung,1985,in Betrieb,Steinkohle,Ja,,HKW I,95.0,Stadtwerke Duisburg AG,2030
+BNA0213,Berechneter Zeitpunkt der Stillegung,2002,in Betrieb,Erdgas,Ja,,HKW III/A,40.0,Stadtwerke Duisburg AG,--
+BNA0214,Berechneter Zeitpunkt der Stillegung,2005,in Betrieb,Erdgas,Ja,,HKW III/B,234.0,Stadtwerke Duisburg AG,--
+BNA0216a,Berechneter Zeitpunkt der Stillegung,1988,in Betrieb,Steinkohle,Ja,,KW Walsum,370.0,Steag GmbH,2033
+BNA0216b,Berechneter Zeitpunkt der Stillegung,2013,in Betrieb,Steinkohle,Nein,,KW Walsum,725.0,Steag GmbH,2058
+BNA0217,,1955,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,Duisburg Ruhrort 2,60.0,ThyssenKrupp Steel Europe AG,
+BNA0218,,1963,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,Duisburg Ruhrort 3,90.0,ThyssenKrupp Steel Europe AG,
+BNA0219,,1968,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,Duisburg Ruhrort 4,165.0,ThyssenKrupp Steel Europe AG,
+BNA0220,Berechneter Zeitpunkt der Stillegung,2000,in Betrieb,Erdgas,Ja,GuD,GuD,100.0,Stadtwerke Düsseldorf AG,--
+BNA0221a,Berechneter Zeitpunkt der Stillegung,1974,in Betrieb,Erdgas,Nein,,GT,64.7,Stadtwerke Düsseldorf AG,2014
+BNA0221b,Berechneter Zeitpunkt der Stillegung,1974,in Betrieb,Erdgas,Nein,,GT,66.7,Stadtwerke Düsseldorf AG,2014
+BNA0221c,Berechneter Zeitpunkt der Stillegung,1976,in Betrieb,Erdgas,Ja,,Gasblock,293.0,Stadtwerke Düsseldorf AG,--
+BNA0222,Berechneter Zeitpunkt der Stillegung,1977,in Betrieb,Mineralölprodukte,Nein,,GT,86.2,Stadtwerke Düsseldorf AG,2022
+BNA0223a,"Keine Stillegung, da KWK-Betrieb",1955,Sonderfall,Abfall,Nein,,DT,48.9,Stadtwerke Düsseldorf AG,--
+BNA0223b,"Keine Stillegung, da KWK-Betrieb",2000,in Betrieb,Abfall,Ja,,DT,53.7,Stadtwerke Düsseldorf AG,--
+BNA0228,"Keine Stillegung, da KWK-Betrieb",1931,in Betrieb,Pumpspeicher,Nein,,Waldeck1/Bringhausen,143.0,E.ON Kraftwerke GmbH,--
+BNA0229,"Keine Stillegung, da KWK-Betrieb",1974,in Betrieb,Pumpspeicher,Nein,,Waldeck 2,480.0,E.ON Kraftwerke GmbH,--
+BNA0230,,1915,in Betrieb,Speicherwasser (ohne Pumpspeicher),Nein,,Hemfurth,20.0,E.ON Kraftwerke GmbH,
+BNA0232b,"Keine Stillegung, da KWK-Betrieb",1961,in Betrieb,Biomasse,Ja,,Werkskraftwerk Sappi Ehingen,8.0,Sappi Ehingen GmbH,--
+BNA0232c,Berechneter Zeitpunkt der Stillegung,1976,in Betrieb,Erdgas,Ja,,Werkskraftwerk Sappi Ehingen,4.0,Sappi Ehingen GmbH,--
+BNA0233,Berechneter Zeitpunkt der Stillegung,1993,in Betrieb,Erdgas,Ja,,Kombikraftwerk,46.6,Stora Enso Sachsen GmbH,--
+BNA0237,,2011,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,EBS-Heizkraftwerk,23.5,EnBW Propower GmbH,
+BNA0238a,,1953,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,IKW,45.0,Arcelor Mittal Eisenhüttenstadt GmbH,
+BNA0238b,,2013,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,IKW,56.0,Arcelor Mittal Eisenhüttenstadt GmbH,
+BNA0239,Berechneter Zeitpunkt der Stillegung,1978,in Betrieb,Erdgas,Nein,,Huntorf,321.0,E.ON Kraftwerke GmbH,2018
+BNA0243,Berechneter Zeitpunkt der Stillegung,2008,in Betrieb,Erdgas,Ja,,HKW Eltmann,54.0,Palm Power GmbH & Co. KG,--
+BNA0245a,Berechneter Zeitpunkt der Stillegung,1973,in Betrieb,Erdgas,Nein,,Emden Gas,50.0,Statkraft Markets GmbH,2013
+BNA0245b,Berechneter Zeitpunkt der Stillegung,1973,vorläufig stillgelegt,Erdgas,Nein,,Emden Gas,380.0,Statkraft Markets GmbH,2013
+BNA0251,Von der BNetzA Terminiert,1985,in Betrieb,Kernenergie,Nein,,Grohnde,1360.0,E.ON Kernkraft GmbH,2021
+BNA0252,Berechneter Zeitpunkt der Stillegung,1971,in Betrieb,Steinkohle,Nein,,Kraftwerk Ensdorf,283.0,Gemeinschaft nach Bruchteilen der Saarstahl AG (SAG) und Saarschmiede GmbH Freiformschmiede (SSF),2016
+BNA0253,Berechneter Zeitpunkt der Stillegung,1963,in Betrieb,Steinkohle,Ja,,Kraftwerk Ensdorf,106.0,"VSE AG, Kraftwerk Ensdorf",2008
+BNA0255,Berechneter Zeitpunkt der Stillegung,1996,in Betrieb,Erdgas,Ja,,HKW Iderhoffstraße,11.0,SWE Energie GmbH,--
+BNA0256a,Berechneter Zeitpunkt der Stillegung,2000,in Betrieb,Erdgas,Ja,,HKW Erfurt-Ost,76.5,SWE Energie GmbH,--
+BNA0256b,Berechneter Zeitpunkt der Stillegung,2014,in Betrieb,Erdgas,Ja,,HKW Erfurt-Ost,32.6,SWE Energie GmbH,--
+BNA0259,"Keine Stillegung, da KWK-Betrieb",1942,in Betrieb,Laufwasser,Nein,,Ering,36.45,Innwerk AG,--
+BNA0261a,Berechneter Zeitpunkt der Stillegung,2005,in Betrieb,Erdgas,Ja,GuD,HKW Erlangen,21.6,Erlanger Stadtwerke AG,--
+BNA0261b,Berechneter Zeitpunkt der Stillegung,1980,in Betrieb,Steinkohle,Ja,,HKW Erlangen,17.4,Erlanger Stadtwerke AG,2025
+BNA0261c,Berechneter Zeitpunkt der Stillegung,2014,in Betrieb,Erdgas,Ja,GuD,HKW Erlangen,6.7,Erlanger Stadtwerke AG,--
+BNA0263,Von der BNetzA Terminiert,1988,in Betrieb,Kernenergie,Nein,,Isar 2,1410.0,E.ON Kernkraft GmbH,2022
+BNA0268,"Keine Stillegung, da KWK-Betrieb",1969,in Betrieb,Pumpspeicher,nan,,Pumpspeicherwerk Rönkhausen,138.0,Mark-E AG,--
+BNA0270,Berechneter Zeitpunkt der Stillegung,1992,in Betrieb,Steinkohle,ja,,Heizkraftwerk FL,27.0,Stadtwerke Flensburg GmbH,2037
+BNA0271,Berechneter Zeitpunkt der Stillegung,1988,in Betrieb,Steinkohle,ja,,Heizkraftwerk FL,29.0,Stadtwerke Flensburg GmbH,2033
+BNA0272,Berechneter Zeitpunkt der Stillegung,1985,in Betrieb,Steinkohle,ja,,Heizkraftwerk FL,33.0,Stadtwerke Flensburg GmbH,2030
+BNA0273,Berechneter Zeitpunkt der Stillegung,1982,in Betrieb,Steinkohle,ja,,Heizkraftwerk FL,35.0,Stadtwerke Flensburg GmbH,2027
+BNA0274,Berechneter Zeitpunkt der Stillegung,1978,in Betrieb,Steinkohle,ja,,Heizkraftwerk FL,23.0,Stadtwerke Flensburg GmbH,2023
+BNA0278,"Keine Stillegung, da KWK-Betrieb",1918,in Betrieb,Laufwasser,Nein,,Rudolf-Fettweis-Werk     ,22.0,EnBW Energie Baden-Württemberg AG,--
+BNA0279,"Keine Stillegung, da KWK-Betrieb",1926,in Betrieb,Pumpspeicher,Nein,,Rudolf-Fettweis-Werk     ,43.0,EnBW Energie Baden-Württemberg AG,--
+BNA0284,Berechneter Zeitpunkt der Stillegung,1997,in Betrieb,Braunkohle,Ja,GuD,Heizkraftwerk FFO,45.0,Stadtwerke Frankfurt (Oder) GmbH,2042
+BNA0285,Berechneter Zeitpunkt der Stillegung,2005,in Betrieb,Erdgas,Ja,,HKW Niederrad,70.0,Mainova AG,--
+BNA0286,Berechneter Zeitpunkt der Stillegung,1994,in Betrieb,Erdgas,Ja,,HKW West,99.0,Mainova AG,--
+BNA0287a,"Keine Stillegung, da KWK-Betrieb",1998,in Betrieb,Abfall,Ja,,MHKW Frankfurt,26.0,Mainova AG,--
+BNA0287b,"Keine Stillegung, da KWK-Betrieb",2006,in Betrieb,Abfall,Ja,,MHKW Frankfurt,46.5,Mainova AG,--
+BNA0288,Berechneter Zeitpunkt der Stillegung,1973,in Betrieb,Erdgas,Ja,,HKW Niederrad,56.0,Mainova AG,--
+BNA0289a,,1954,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Nein,,HKW West,19.7,Mainova AG,
+BNA0289b,Berechneter Zeitpunkt der Stillegung,1989,in Betrieb,Steinkohle,Ja,,HKW West,61.5,Mainova AG,2034
+BNA0290,Berechneter Zeitpunkt der Stillegung,1989,in Betrieb,Steinkohle,Ja,,HKW West,61.5,Mainova AG,2034
+BNA0292,Berechneter Zeitpunkt der Stillegung,1959,in Betrieb,Braunkohle,Ja,,Frechen/Wachtberg,118.0,RWE Power AG,2004
+BNA0293,Berechneter Zeitpunkt der Stillegung,1998,in Betrieb,Erdgas,Ja,GuD,GuD Anlage WVK,60.098,Solvay Acetow GmbH,--
+BNA0313,Berechneter Zeitpunkt der Stillegung,1966,in Betrieb,Braunkohle,Ja,,Frimmersdorf,284.0,RWE Power AG,2011
+BNA0314,Berechneter Zeitpunkt der Stillegung,1970,in Betrieb,Braunkohle,Nein,,Frimmersdorf,278.0,RWE Power AG,2015
+BNA0318,Berechneter Zeitpunkt der Stillegung,2011,in Betrieb,Mineralölprodukte,Nein,,Kraftwerk Fulda,24.81,RhönEnergie Fulda GmbH,2056
+BNA0324,"Keine Stillegung, da KWK-Betrieb",1938,in Betrieb,Laufwasser,Nein,,Gars,25.0,VERBUND-Innkraftwerke GmbH,--
+BNA0327,"Keine Stillegung, da KWK-Betrieb",1958,in Betrieb,Pumpspeicher,Nein,,Geesthacht,119.1,Vattenfall Europe Generation AG,--
+BNA0328,"Keine Stillegung, da KWK-Betrieb",1958,in Betrieb,Pumpspeicher,Nein,,Geesthacht,,Vattenfall Europe Generation AG,--
+BNA0329,"Keine Stillegung, da KWK-Betrieb",1958,in Betrieb,Pumpspeicher,Nein,,Geesthacht,,Vattenfall Europe Generation AG,--
+BNA0331,Berechneter Zeitpunkt der Stillegung,1969,in Betrieb,Steinkohle,Ja,,Scholven,345.0,E.ON Kraftwerke GmbH,2014
+BNA0332,Berechneter Zeitpunkt der Stillegung,1968,in Betrieb,Steinkohle,Ja,,Scholven,345.0,E.ON Kraftwerke GmbH,2013
+BNA0333,Von der BNetzA Terminiert,1970,in Betrieb,Steinkohle,Ja,,Scholven,345.0,E.ON Kraftwerke GmbH,2014
+BNA0334,Von der BNetzA Terminiert,1971,in Betrieb,Steinkohle,Ja,,Scholven,345.0,E.ON Kraftwerke GmbH,2014
+BNA0335,Von der BNetzA Terminiert,1979,in Betrieb,Steinkohle,Nein,,Scholven,676.0,E.ON Kraftwerke GmbH,2014
+BNA0336,Berechneter Zeitpunkt der Stillegung,1985,in Betrieb,Steinkohle,Ja,,FWK Buer,70.0,E.ON Kraftwerke GmbH,2030
+BNA0337,"Keine Stillegung, da KWK-Betrieb",1974,in Betrieb,Pumpspeicher,Nein,,PSW Langenprozelten,164.0,Donau-Wasserkraft AG,--
+BNA0343,Berechneter Zeitpunkt der Stillegung,1997,in Betrieb,Erdgas,Ja,,Heizkraftwerk Gera-Nord,74.0,Energieversorgung Gera GmbH,--
+BNA0350,"Keine Stillegung, da KWK-Betrieb",2004,in Betrieb,Pumpspeicher,Nein,,Goldisthal,1052.0,Vattenfall Europe Generation AG,--
+BNA0351,"Keine Stillegung, da KWK-Betrieb",2003,in Betrieb,Pumpspeicher,Nein,,Goldisthal,,Vattenfall Europe Generation AG,--
+BNA0352,"Keine Stillegung, da KWK-Betrieb",2004,in Betrieb,Pumpspeicher,Nein,,Goldisthal,,Vattenfall Europe Generation AG,--
+BNA0353,"Keine Stillegung, da KWK-Betrieb",2004,in Betrieb,Pumpspeicher,Nein,,Goldisthal,,Vattenfall Europe Generation AG,--
+BNA0354,Berechneter Zeitpunkt der Stillegung,1998,in Betrieb,Erdgas,Ja,,HKW Göttingen,18.8,Georg-August-Universität Göttingen Stiftung Öffentlichen Rechts,--
+BNA0355,Von der BNetzA Terminiert,1982,in Betrieb,Kernenergie,Nein,,Grafenrheinfeld,1275.0,E.ON Kernkraft GmbH,2015
+BNA0360,Berechneter Zeitpunkt der Stillegung,1996,in Betrieb,Erdgas,Ja,,"HKW ""Helmshäger Berg""",14.7,Energieerzeugungsgesellschaft Greifswald GmbH,--
+BNA0361,Berechneter Zeitpunkt der Stillegung,2004,in Betrieb,Erdgas,Ja,,Kraftwerk Grenzach-Wyhlen,40.0,KGW - Kraftwerk Grenzach-Wyhlen GmbH,--
+BNA0362,"Keine Stillegung, da KWK-Betrieb",1912,in Betrieb,Laufwasser,Nein,,KW Wyhlen,37.9,Energiedienst AG,--
+BNA0364,"Keine Stillegung, da KWK-Betrieb",1955,in Betrieb,Laufwasser,Nein,,Jochenstein,66.0,Innwerk AG,--
+BNA0369,Berechneter Zeitpunkt der Stillegung,1995,in Betrieb,Mineralölprodukte,Nein,,Spitzenlastkraftwerk Sermuth,17.0,envia THERM GmbH,2040
+BNA0373,Berechneter Zeitpunkt der Stillegung,1994,in Betrieb,Mineralölprodukte,Nein,,Spitzenlastkraftwerk Großkayna,120.0,envia THERM GmbH,2039
+BNA0374,Von der BNetzA Terminiert,1977,Reservekraftwerk,Erdgas,Nein,,Staudinger,622.0,E.ON Kraftwerke GmbH,2016
+BNA0377,Berechneter Zeitpunkt der Stillegung,1992,in Betrieb,Steinkohle,Ja,,Staudinger,510.0,E.ON Kraftwerke GmbH,2037
+BNA0378,Von der BNetzA Terminiert,1973,in Betrieb,Mineralölprodukte,Ja,,Ingolstadt,386.0,E.ON Kraftwerke GmbH,2015
+BNA0379,Von der BNetzA Terminiert,1974,in Betrieb,Mineralölprodukte,Ja,,Ingolstadt,386.0,E.ON Kraftwerke GmbH,2015
+BNA0380,"Keine Stillegung, da KWK-Betrieb",2008,in Betrieb,Abfall,Ja,,EEW Großräschen,23.3,EEW Energy from Waste Großräschen GmbH,--
+BNA0381,Von der BNetzA Terminiert,1984,in Betrieb,Kernenergie,Nein,,Kernkraft Gundremmingen ,1284.0,Kernkraftwerk Gundremmingen GmbH (KGG),2021
+BNA0382,Von der BNetzA Terminiert,1984,in Betrieb,Kernenergie,Nein,,Kernkraft Gundremmingen ,1288.0,Kernkraftwerk Gundremmingen GmbH (KGG),2017
+BNA0386,Berechneter Zeitpunkt der Stillegung,1994,in Betrieb,Erdgas,Ja,,Energiezentrum Mohn Media,21.97,Mohn Media Mohndruck GmbH,--
+BNA0389,Berechneter Zeitpunkt der Stillegung,1980,in Betrieb,Erdgas,Ja,,Heizkraftwerk Hagen-Kabel,230.0,Mark-E AG,--
+BNA0392a,Berechneter Zeitpunkt der Stillegung,2005,in Betrieb,Erdgas,Ja,,HKW Halle Trotha,97.0,EVH GmbH,--
+BNA0392b,Berechneter Zeitpunkt der Stillegung,2013,in Betrieb,Erdgas,Ja,GuD,HKW Halle Trotha,54.0,Heizkraftwerk Halle-Trotha GmbH,--
+BNA0395,,1958,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,Duisburg Hamborn 3,60.0,ThyssenKrupp Steel Europe AG,
+BNA0396,,1976,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,Duisburg Hamborn 4,100.0,ThyssenKrupp Steel Europe AG,
+BNA0397,,2003,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,Duisburg Hamborn 5,225.0,ThyssenKrupp Steel Europe AG,
+BNA0398,"Keine Stillegung, da KWK-Betrieb",1999,in Betrieb,Abfall,Ja,,MVR Müllverwertung Rugenberger Damm GmbH & Co. KG,24.0,MVR Müllverwertung Rugenberger Damm GmbH & Co. KG,--
+BNA0400,Berechneter Zeitpunkt der Stillegung,2009,in Betrieb,Erdgas,Ja,GuD,GuD Tiefstack,127.0,Vattenfall Europe Wärme Aktiengesellschaft,--
+BNA0401,Berechneter Zeitpunkt der Stillegung,1992,in Betrieb,Erdgas,Ja,,Heizkraftwerk,22.5,ADM Hamburg Aktiengesellschaft,--
+BNA0402,Berechneter Zeitpunkt der Stillegung,1993,in Betrieb,Steinkohle,Ja,,Tiefstack,194.0,Vattenfall Europe Wärme Aktiengesellschaft,2038
+BNA0403,Berechneter Zeitpunkt der Stillegung,1962,in Betrieb,Steinkohle,Ja,,Wedel,123.0,Vattenfall Europe Wärme AG,2007
+BNA0404,Berechneter Zeitpunkt der Stillegung,1961,in Betrieb,Steinkohle,Ja,,Wedel,137.0,Vattenfall Europe Wärme AG,2006
+BNA0407,"Keine Stillegung, da KWK-Betrieb",1912,in Betrieb,Abfall,ja,,Enertec Hameln,14.7,Enertec Hameln GmbH,--
+BNA0410,Berechneter Zeitpunkt der Stillegung,2008,in Betrieb,Erdgas,Nein,,Trianel Gaskraftwerk ,417.1,Trianel Gaskraftwerk Hamm GmbH & Co. KG ,2048
+BNA0411,Berechneter Zeitpunkt der Stillegung,2008,in Betrieb,Erdgas,Nein,,Trianel Gaskraftwerk ,420.9,Trianel Gaskraftwerk Hamm GmbH & Co. KG ,2048
+BNA0413a,Berechneter Zeitpunkt der Stillegung,1969,in Betrieb,Steinkohle,Nein,,Westfalen,284.0,RWE Generation SE,2014
+BNA0413b,Berechneter Zeitpunkt der Stillegung,2014,Sonderfall,Steinkohle,Nein,,Westfalen,765.0,RWE Generation SE,2059
+BNA0413c,Berechneter Zeitpunkt der Stillegung,2014,in Betrieb,Steinkohle,Nein,,Westfalen,765.0,RWE Generation SE,2059
+BNA0417,"Keine Stillegung, da KWK-Betrieb",2005,in Betrieb,Abfall,Nein,,EEW Energy from Waste Hannover GmbH,22.5,EEW Energy from Waste Hannover GmbH,--
+BNA0418,Berechneter Zeitpunkt der Stillegung,2013,in Betrieb,Erdgas,Ja,,GKL,250.0,Stadtwerke Hannover AG,--
+BNA0419,Von der BNetzA Terminiert,1975,in Betrieb,Erdgas,Ja,,KWH,102.0,Stadtwerke Hannover AG,2015
+BNA0420,Berechneter Zeitpunkt der Stillegung,1989,in Betrieb,Steinkohle,Ja,,GKH,136.0,Stadtwerke Hannover AG,2034
+BNA0421,Berechneter Zeitpunkt der Stillegung,1989,in Betrieb,Steinkohle,Ja,,GKH,136.0,Stadtwerke Hannover AG,2034
+BNA0422,"Keine Stillegung, da KWK-Betrieb",1958,Sonderfall,Pumpspeicher,Nein,,Happurg,160.0,E.ON Kraftwerke GmbH,--
+BNA0426,"Keine Stillegung, da KWK-Betrieb",1931,in Betrieb,Pumpspeicher,Nein,,Häusern,100.0,Schluchseewerk Aktiengesellschaft,--
+BNA0427,Berechneter Zeitpunkt der Stillegung,1982,in Betrieb,Mineralölprodukte,Nein,,Kraftwerk Hausham,23.2,Peissenberger Kraftwerksgesellschaft mbH Kraftwerk Hausham,2027
+BNA0428,Berechneter Zeitpunkt der Stillegung,1982,in Betrieb,Mineralölprodukte,Nein,,Kraftwerk Hausham,23.2,Peissenberger Kraftwerksgesellschaft mbH Kraftwerk Hausham,2027
+BNA0429,Berechneter Zeitpunkt der Stillegung,1982,in Betrieb,Mineralölprodukte,Nein,,Kraftwerk Hausham,23.2,Peissenberger Kraftwerksgesellschaft mbH Kraftwerk Hausham,2027
+BNA0430,Berechneter Zeitpunkt der Stillegung,1982,in Betrieb,Mineralölprodukte,Nein,,Kraftwerk Hausham,23.2,Peissenberger Kraftwerksgesellschaft mbH Kraftwerk Hausham,2027
+BNA0432,Von der BNetzA Terminiert,1965,in Betrieb,Steinkohle,Ja,,Heizkraftwerk Heilbronn,110.0,EnBW Energie Baden-Württemberg AG,2015
+BNA0433,Von der BNetzA Terminiert,1966,in Betrieb,Steinkohle,Ja,,Heizkraftwerk Heilbronn,110.0,EnBW Energie Baden-Württemberg AG,2015
+BNA0434,Berechneter Zeitpunkt der Stillegung,1985,in Betrieb,Steinkohle,Ja,,Heizkraftwerk Heilbronn,778.0,EnBW Energie Baden-Württemberg AG,2030
+BNA0438,"Keine Stillegung, da KWK-Betrieb",1998,in Betrieb,Abfall,Nein,,TRV Buschhaus,37.5,EEW Energy from Waste Helmstedt GmbH,--
+BNA0439,Berechneter Zeitpunkt der Stillegung,1985,in Betrieb,Braunkohle,Nein,,Buschhaus,352.0,E.ON Kraftwerke GmbH,2030
+BNA0442,,2007,in Betrieb,Erdgas,nan,,Cuno Heizkraftwerk Herdecke,417.0,Mark-E AG / Statkraft Markets GmbH,
+BNA0443,"Keine Stillegung, da KWK-Betrieb",1989,in Betrieb,Pumpspeicher,Nein,,Koepchenwerk,153.0,RWE Power AG,--
+BNA0444,Berechneter Zeitpunkt der Stillegung,1967,in Betrieb,Erdgas,Ja,,Wintershall,109.5,K+S AG,--
+BNA0449,Berechneter Zeitpunkt der Stillegung,1966,in Betrieb,Steinkohle,Ja,,KW Herne,280.0,Steag GmbH,2011
+BNA0450,Berechneter Zeitpunkt der Stillegung,1989,in Betrieb,Steinkohle,Ja,,KW Herne,449.0,Steag GmbH,2034
+BNA0464,Berechneter Zeitpunkt der Stillegung,1979,in Betrieb,Steinkohle,Nein,,KWM,690.0,Stadtwerke Hannover AG,2024
+BNA0465,"Keine Stillegung, da KWK-Betrieb",1959,in Betrieb,Pumpspeicher,Nein,,Hohenwarte 1,59.8,Vattenfall Europe Generation AG,--
+BNA0466,"Keine Stillegung, da KWK-Betrieb",1959,in Betrieb,Pumpspeicher,Nein,,Hohenwarte 1,,Vattenfall Europe Generation AG,--
+BNA0467,"Keine Stillegung, da KWK-Betrieb",1966,in Betrieb,Pumpspeicher,Nein,,Hohenwarte 2,317.8,Vattenfall Europe Generation AG,--
+BNA0468,"Keine Stillegung, da KWK-Betrieb",1966,in Betrieb,Pumpspeicher,Nein,,Hohenwarte 2,,Vattenfall Europe Generation AG,--
+BNA0469,"Keine Stillegung, da KWK-Betrieb",1966,in Betrieb,Pumpspeicher,Nein,,Hohenwarte 2,,Vattenfall Europe Generation AG,--
+BNA0470,"Keine Stillegung, da KWK-Betrieb",1966,in Betrieb,Pumpspeicher,Nein,,Hohenwarte 2,,Vattenfall Europe Generation AG,--
+BNA0471,"Keine Stillegung, da KWK-Betrieb",1966,in Betrieb,Pumpspeicher,Nein,,Hohenwarte 2,,Vattenfall Europe Generation AG,--
+BNA0472,"Keine Stillegung, da KWK-Betrieb",1966,in Betrieb,Pumpspeicher,Nein,,Hohenwarte 2,,Vattenfall Europe Generation AG,--
+BNA0473,"Keine Stillegung, da KWK-Betrieb",1966,in Betrieb,Pumpspeicher,Nein,,Hohenwarte 2,,Vattenfall Europe Generation AG,--
+BNA0474,"Keine Stillegung, da KWK-Betrieb",1966,in Betrieb,Pumpspeicher,Nein,,Hohenwarte 2,,Vattenfall Europe Generation AG,--
+BNA0485,,1975,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,Huckingen,303.0,Hüttenwerke Krupp Mannesmann GmbH,
+BNA0486,,1976,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,Huckingen,303.0,Hüttenwerke Krupp Mannesmann GmbH,
+BNA0489,Von der BNetzA Terminiert,1992,vorläufig stillgelegt,Braunkohle,Ja,,Goldenberg,66.0,RWE Power AG,2015
+BNA0490,Von der BNetzA Terminiert,1993,in Betrieb,Braunkohle,Ja,,Goldenberg,85.0,RWE Power AG,2015
+BNA0491,Berechneter Zeitpunkt der Stillegung,1991,in Betrieb,Braunkohle,Ja,,Ville/Berrenrath,52.0,RWE Power AG,2036
+BNA0493,Berechneter Zeitpunkt der Stillegung,1985,in Betrieb,Steinkohle,Ja,,Ibbenbüren,794.0,RWE Generation SE,2030
+BNA0494,"Keine Stillegung, da KWK-Betrieb",2013,in Betrieb,Laufwasser,nein,,Rheinkraftwerk Iffezheim,146.0,EnBW Energie Baden-Württemberg AG,--
+BNA0496,"Keine Stillegung, da KWK-Betrieb",1956,in Betrieb,Laufwasser,Nein,,KW Imst,89.0,TIWAG-Tiroler Wasserkraft AG,--
+BNA0497,Berechneter Zeitpunkt der Stillegung,2012,in Betrieb,Erdgas,Ja,,ADS-Anlage,96.5,Infraserv GmbH & Co. Höchst KG,--
+BNA0498,Berechneter Zeitpunkt der Stillegung,1989,in Betrieb,Steinkohle,Ja,,Heizkraftwerk,66.0,Infraserv GmbH & Co. Höchst KG,2034
+BNA0499,Berechneter Zeitpunkt der Stillegung,2003,in Betrieb,Erdgas,Ja,,Heizkraftwerk,86.0,Infraserv GmbH & Co. Höchst KG,--
+BNA0504,Berechneter Zeitpunkt der Stillegung,1996,in Betrieb,Erdgas,Ja,,HKW Jena,182.0,Thüringer Energie AG,--
+BNA0505,,1926,in Betrieb,Speicherwasser (ohne Pumpspeicher),Nein,,KW Jenbach,79.0,TIWAG-Tiroler Wasserkraft AG,
+BNA0510a,Berechneter Zeitpunkt der Stillegung,1989,in Betrieb,Erdgas,Ja,,HKW Karcherstr.,11.6,SWK - Stadtwerke Kaiserslautern,--
+BNA0510b,Berechneter Zeitpunkt der Stillegung,1996,in Betrieb,Steinkohle,Ja,,HKW Karcherstr.,13.4,SWK - Stadtwerke Kaiserslautern,2041
+BNA0514,Berechneter Zeitpunkt der Stillegung,1998,in Betrieb,Erdgas,Nein,,Rheinhafen-Dampfkraftwerk,353.0,EnBW Energie Baden-Württemberg AG,2038
+BNA0515,Berechneter Zeitpunkt der Stillegung,1984,in Betrieb,Erdgas,Ja,,Heizkraftwerk West,37.0,Stadtwerke Karlsruhe GmbH,--
+BNA0516,Berechneter Zeitpunkt der Stillegung,1995,in Betrieb,Mineralölprodukte,Ja,,MiRO,45.0,Mineraloelraffinerie Oberrhein GmbH & Co. KG,2040
+BNA0517,Berechneter Zeitpunkt der Stillegung,1995,in Betrieb,Mineralölprodukte,Ja,,MiRO,25.0,Mineraloelraffinerie Oberrhein GmbH & Co. KG,2040
+BNA0518a,Berechneter Zeitpunkt der Stillegung,1985,in Betrieb,Steinkohle,Ja,,Rheinhafen-Dampfkraftwerk,505.0,EnBW Energie Baden-Württemberg AG,2030
+BNA0518b,Berechneter Zeitpunkt der Stillegung,2014,in Betrieb,Steinkohle,Ja,,Rheinhafen-Dampfkraftwerk,842.0,EnBW Energie Baden-Württemberg AG,2059
+BNA0519,"Keine Stillegung, da KWK-Betrieb",1987,in Betrieb,Abfall,Ja,,Karnap,38.0,RWE Generation SE,--
+BNA0520,"Keine Stillegung, da KWK-Betrieb",2010,in Betrieb,Biomasse,Ja,,Stora Enso Maxau,78.0,Stora Enso Maxau GmbH,--
+BNA0521,Berechneter Zeitpunkt der Stillegung,1987,in Betrieb,Erdgas,Ja,,Kombi-HKW,50.0,Städtische Werke Energie + Wärme GmbH,--
+BNA0523,Berechneter Zeitpunkt der Stillegung,1988,in Betrieb,Braunkohle,Ja,,FKK,33.5,Städtische Werke Energie + Wärme GmbH,2033
+BNA0526,Von der BNetzA Terminiert,1970,in Betrieb,Steinkohle,Ja,,Gemeinschaftskraftwerk Kiel,323.0,Gemeinschaftskraftwerk Kiel GmbH,2015
+BNA0527,Berechneter Zeitpunkt der Stillegung,1970,in Betrieb,Erdgas,Ja,,HKW Humboldtstr.,20.0,Stadtwerke Kiel AG,--
+BNA0529,"Keine Stillegung, da KWK-Betrieb",1953,in Betrieb,Laufwasser,Nein,,Braunau-Simbach,50.0,Innwerk AG,--
+BNA0531,Berechneter Zeitpunkt der Stillegung,1980,in Betrieb,Erdgas,Nein,,KW Kirchlengern,201.5,Energieservice Westfalen Weser GmbH,2020
+BNA0540,,1924,in Betrieb,Speicherwasser (ohne Pumpspeicher),Nein,,Walchensee,124.0,E.ON Kraftwerke GmbH,
+BNA0543,Berechneter Zeitpunkt der Stillegung,2010,in Betrieb,Braunkohle,Ja,,HKW Merkenich,75.3,RheinEnergie AG,2055
+BNA0544,Berechneter Zeitpunkt der Stillegung,1994,in Betrieb,Erdgas,Ja,GuD,HKW Südstadt,35.0,RheinEnergie AG,--
+BNA0545,Berechneter Zeitpunkt der Stillegung,2005,in Betrieb,Erdgas,Ja,GuD,HKW Niehl 2,413.0,RheinEnergie AG,--
+BNA0546,Berechneter Zeitpunkt der Stillegung,2004,in Betrieb,Erdgas,Ja,GuD,HKW Merkenich,108.0,RheinEnergie AG,--
+BNA0547,Berechneter Zeitpunkt der Stillegung,2004,in Betrieb,Mineralölprodukte,Ja,,Raffineriekraftwerk Köln Godorf,80.0,Steag GmbH,2049
+BNA0548a,Berechneter Zeitpunkt der Stillegung,2006,in Betrieb,Erdgas,Nein,,Knapsack Gas I,800.0,Statkraft Markets GmbH,2046
+BNA0548b,Berechneter Zeitpunkt der Stillegung,2013,in Betrieb,Erdgas,Nein,,Knapsack Gas II,430.0,Statkraft Markets GmbH,2053
+BNA0556a,Berechneter Zeitpunkt der Stillegung,2004,in Betrieb,Erdgas,Ja,,KWK-Anlage Krefeld DT,25.8,Cargill Deutschland GmbH,--
+BNA0556b,Berechneter Zeitpunkt der Stillegung,2004,in Betrieb,Erdgas,Ja,,KWK-Anlage Krefeld VM,14.0,Cargill Deutschland GmbH,--
+BNA0557a,Berechneter Zeitpunkt der Stillegung,1957,in Betrieb,Steinkohle,Ja,,Kraftwerk L 57,26.0,Currenta GmbH & Co. OHG,2002
+BNA0557b,Berechneter Zeitpunkt der Stillegung,1971,in Betrieb,Steinkohle,Ja,,Kraftwerk N 230,110.0,Currenta GmbH & Co. OHG,2016
+BNA0558,"Keine Stillegung, da KWK-Betrieb",1964,in Betrieb,Pumpspeicher,Nein,,Erzhausen,220.0,Statkraft Markets GmbH,--
+BNA0567a,"Keine Stillegung, da KWK-Betrieb",1981,in Betrieb,Pumpspeicher,Nein,,KW Kühtai,144.5,TIWAG-Tiroler Wasserkraft AG,--
+BNA0567b,"Keine Stillegung, da KWK-Betrieb",1981,in Betrieb,Pumpspeicher,Nein,,KW Kühtai,144.5,TIWAG-Tiroler Wasserkraft AG,--
+BNA0574,Berechneter Zeitpunkt der Stillegung,1973,vorläufig stillgelegt,Erdgas,Nein,,Landesbergen Gas,500.0,Statkraft Markets GmbH,2013
+BNA0583,"Keine Stillegung, da KWK-Betrieb",1914,in Betrieb,Laufwasser,Nein,,Laufenburg,104.4,Energiedienst Holding AG,--
+BNA0588,Berechneter Zeitpunkt der Stillegung,1996,in Betrieb,Erdgas,Ja,,Heizkraftwerk Leipzig-Nord,167.0,Stadtwerke Leipzig GmbH,--
+BNA0590,"Keine Stillegung, da KWK-Betrieb",2005,in Betrieb,Abfall,Nein,,TREA Leuna,16.25,MVV Energie AG,--
+BNA0591,"Keine Stillegung, da KWK-Betrieb",2007,in Betrieb,Abfall,Nein,,TREA Leuna,16.25,MVV Energie AG,--
+BNA0592,Berechneter Zeitpunkt der Stillegung,1998,in Betrieb,Erdgas,Ja,,GuD Leuna,52.0,envia THERM GmbH,--
+BNA0593,Berechneter Zeitpunkt der Stillegung,1994,in Betrieb,Erdgas,Ja,GuD,ILK-GuD,35.0,InfraLeuna GmbH,--
+BNA0594,Berechneter Zeitpunkt der Stillegung,1994,in Betrieb,Erdgas,Ja,GuD,ILK-GuD,35.0,InfraLeuna GmbH,--
+BNA0595,Berechneter Zeitpunkt der Stillegung,1994,in Betrieb,Erdgas,Ja,GuD,ILK-GuD,37.0,InfraLeuna GmbH,--
+BNA0596,Berechneter Zeitpunkt der Stillegung,1997,in Betrieb,Mineralölprodukte,Ja,,Raffineriekraftwerk,92.5,TOTAL Raffinerie Mitteldeutschland GmbH,2042
+BNA0597,,1994,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,GuD,ILK-GuD,8.7,InfraLeuna GmbH,
+BNA0598a,,2000,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Nein,,ILK-EKT,14.0,InfraLeuna GmbH,
+BNA0598b,,2010,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Nein,GuD,ILK-GuD,20.0,InfraLeuna GmbH,
+BNA0599,"Keine Stillegung, da KWK-Betrieb",2011,in Betrieb,Abfall,Ja,,nan,11.6,AVEA Entsorgungsbetriebe GmbH & Co. KG,--
+BNA0600a,Berechneter Zeitpunkt der Stillegung,1981,in Betrieb,Erdgas,Ja,,X-Kraftwerk,27.0,Currenta GmbH & Co. OHG,--
+BNA0600b,Berechneter Zeitpunkt der Stillegung,1962,in Betrieb,Steinkohle,Ja,,G-Kraftwerk,103.0,Currenta GmbH & Co. OHG,2007
+BNA0602,Berechneter Zeitpunkt der Stillegung,2011,in Betrieb,Erdgas,Ja,,Emsland,116.0,RWE Generation SE,--
+BNA0603,Berechneter Zeitpunkt der Stillegung,2011,in Betrieb,Erdgas,Ja,,Emsland,116.0,RWE Generation SE,--
+BNA0604,Berechneter Zeitpunkt der Stillegung,1973,in Betrieb,Erdgas,Ja,,Emsland,359.0,RWE Generation SE,--
+BNA0605,Berechneter Zeitpunkt der Stillegung,1974,in Betrieb,Erdgas,Ja,,Emsland,359.0,RWE Generation SE,--
+BNA0606,Berechneter Zeitpunkt der Stillegung,2010,in Betrieb,Erdgas,Ja,,Emsland,876.0,RWE Generation SE,--
+BNA0607,Von der BNetzA Terminiert,1988,in Betrieb,Kernenergie,Nein,,Kernkraftwerk Emsland,1329.0,Kernkraftwerke Lippe-Ems GmbH (KLE),2022
+BNA0614a,Berechneter Zeitpunkt der Stillegung,1992,Sonderfall,Erdgas,Ja,,KW Mitte,43.0,BASF SE,--
+BNA0614b,Berechneter Zeitpunkt der Stillegung,2005,in Betrieb,Erdgas,Ja,,Kraftwerk Mitte,490.0,BASF SE,--
+BNA0615,Berechneter Zeitpunkt der Stillegung,1997,in Betrieb,Erdgas,Ja,,Kraftwerk Süd,390.0,BASF SE,--
+BNA0616a,"Keine Stillegung, da KWK-Betrieb",1992,in Betrieb,Abfall,Ja,,Kläranlage,12.0,BASF SE,--
+BNA0616b,,1964,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,Kraftwerk Nord,56.0,BASF SE,
+BNA0618,Berechneter Zeitpunkt der Stillegung,1962,in Betrieb,Steinkohle,Nein,,KW Lünen,149.0,Steag GmbH,2007
+BNA0619,Berechneter Zeitpunkt der Stillegung,1969,in Betrieb,Steinkohle,Ja,,KW Lünen,324.0,Steag GmbH,2014
+BNA0622,"Keine Stillegung, da KWK-Betrieb",2005,in Betrieb,Abfall,Ja,,MHKW Rothensee,29.2,Müllheizkraftwerk Rothensee GmbH,--
+BNA0623,"Keine Stillegung, da KWK-Betrieb",2006,in Betrieb,Abfall,Ja,,MHKW Rothensee,29.2,Müllheizkraftwerk Rothensee GmbH,--
+BNA0626,Berechneter Zeitpunkt der Stillegung,2001,in Betrieb,Erdgas,Ja,,Kraftwerk Mainz,398.0,Kraftwerke Mainz-Wiesbaden AG,--
+BNA0627,Berechneter Zeitpunkt der Stillegung,1977,Reservekraftwerk,Erdgas,Ja,,Kraftwerk Mainz,335.0,Kraftwerke Mainz-Wiesbaden AG,--
+BNA0640,"Keine Stillegung, da KWK-Betrieb",2005,in Betrieb,Abfall,nein,,HKW Mannheim,8.65,MVV Energie AG,--
+BNA0641a,"Keine Stillegung, da KWK-Betrieb",2009,in Betrieb,Abfall,Ja,,HKW Mannheim,22.1,MVV Energie AG,--
+BNA0641b,"Keine Stillegung, da KWK-Betrieb",2012,in Betrieb,Abfall,Ja,,HKW Mannheim,8.1,MVV Energie AG,--
+BNA0641c,"Keine Stillegung, da KWK-Betrieb",2012,in Betrieb,Abfall,Ja,,HKW Mannheim,5.8,MVV Energie AG,--
+BNA0642,Von der BNetzA Terminiert,1966,Reservekraftwerk,Steinkohle,Ja,,GKM ,202.5,Grosskraftwerk Mannheim AG,2015
+BNA0643,Von der BNetzA Terminiert,1970,in Betrieb,Steinkohle,Ja,,GKM ,202.5,Grosskraftwerk Mannheim AG,2015
+BNA0644,Berechneter Zeitpunkt der Stillegung,2005,in Betrieb,Steinkohle,Ja,,GKM ,255.0,Grosskraftwerk Mannheim AG,2050
+BNA0645,Berechneter Zeitpunkt der Stillegung,1982,in Betrieb,Steinkohle,Ja,,GKM ,425.0,Grosskraftwerk Mannheim AG,2027
+BNA0646,Berechneter Zeitpunkt der Stillegung,1993,in Betrieb,Steinkohle,Ja,,GKM ,435.0,Grosskraftwerk Mannheim AG,2038
+BNA0647,Berechneter Zeitpunkt der Stillegung,1971,Reservekraftwerk,Mineralölprodukte,Nein,,Dampfkraftwerk Marbach am Neckar,77.4,EnBW Energie Baden-Württemberg AG,2016
+BNA0648,Berechneter Zeitpunkt der Stillegung,1975,Reservekraftwerk,Mineralölprodukte,Nein,,Dampfkraftwerk Marbach am Neckar,85.0,EnBW Energie Baden-Württemberg AG,2020
+BNA0649,Berechneter Zeitpunkt der Stillegung,1975,Reservekraftwerk,Mineralölprodukte,Nein,,Dampfkraftwerk Marbach am Neckar,262.0,EnBW Energie Baden-Württemberg AG,2020
+BNA0652,"Keine Stillegung, da KWK-Betrieb",1980,in Betrieb,Pumpspeicher,Nein,,Markersbach,1045.2,Vattenfall Europe Generation AG,--
+BNA0653,"Keine Stillegung, da KWK-Betrieb",1980,in Betrieb,Pumpspeicher,Nein,,Markersbach,,Vattenfall Europe Generation AG,--
+BNA0654,"Keine Stillegung, da KWK-Betrieb",1980,in Betrieb,Pumpspeicher,Nein,,Markersbach,,Vattenfall Europe Generation AG,--
+BNA0655,"Keine Stillegung, da KWK-Betrieb",1980,in Betrieb,Pumpspeicher,Nein,,Markersbach,,Vattenfall Europe Generation AG,--
+BNA0656,"Keine Stillegung, da KWK-Betrieb",1980,in Betrieb,Pumpspeicher,Nein,,Markersbach,,Vattenfall Europe Generation AG,--
+BNA0657,"Keine Stillegung, da KWK-Betrieb",1980,in Betrieb,Pumpspeicher,Nein,,Markersbach,,Vattenfall Europe Generation AG,--
+BNA0658,Berechneter Zeitpunkt der Stillegung,1973,in Betrieb,Erdgas,Ja,,Kraftwerk III,61.13,Infracor GmbH,--
+BNA0659,Berechneter Zeitpunkt der Stillegung,1974,in Betrieb,Erdgas,Ja,,Kraftwerk III,77.57,Infracor GmbH,--
+BNA0660,Berechneter Zeitpunkt der Stillegung,1971,in Betrieb,Steinkohle,Ja,,Kraftwerk I  ,55.25,Infracor GmbH,2016
+BNA0661,Berechneter Zeitpunkt der Stillegung,1966,in Betrieb,Steinkohle,Ja,,Kraftwerk II,60.4,Infracor GmbH,2011
+BNA0662a,Berechneter Zeitpunkt der Stillegung,1983,in Betrieb,Steinkohle,Ja,,Kraftwerk I ,60.2,Infracor GmbH,2028
+BNA0662b,,1939,in Betrieb,"Mehrere Energieträger
+(nicht erneuerbar)",Ja,,Kraftwerk I,120.0,Infracor GmbH,
+BNA0669,"Keine Stillegung, da KWK-Betrieb",1964,in Betrieb,Pumpspeicher,Nein,,Pumpspeicherkraftwerk Glems,90.0,EnBW Energie Baden-Württemberg AG,--
+BNA0681,Von der BNetzA Terminiert,1975,Sonderfall,Erdgas,Ja,,Freimann GT 1,80.0,SWM Services GmbH,2015
+BNA0682,Von der BNetzA Terminiert,1975,Sonderfall,Erdgas,Nein,,Freimann GT 2,80.0,SWM Services GmbH,2015
+BNA0683a,Berechneter Zeitpunkt der Stillegung,1980,in Betrieb,Erdgas,Ja,,Süd DT1,79.7,SWM Services GmbH,--
+BNA0683b,Berechneter Zeitpunkt der Stillegung,1980,in Betrieb,Erdgas,Ja,,Süd GT3,97.9,SWM Services GmbH,--
+BNA0683c,Berechneter Zeitpunkt der Stillegung,1980,in Betrieb,Erdgas,Ja,,Süd GT2,97.9,SWM Services GmbH,--
+BNA0684a,Berechneter Zeitpunkt der Stillegung,2004,in Betrieb,Erdgas,Ja,,Süd GT 60,102.0,SWM Services GmbH,--
+BNA0684b,Berechneter Zeitpunkt der Stillegung,2004,in Betrieb,Erdgas,Ja,,Süd GT 62,102.0,SWM Services GmbH,--
+BNA0684c,Berechneter Zeitpunkt der Stillegung,2004,in Betrieb,Erdgas,Ja,,Süd DT60,61.0,SWM Services GmbH,--
+BNA0685,Berechneter Zeitpunkt der Stillegung,2005,in Betrieb,Erdgas,Ja,GuD,Heizkraftwerk Hafen,100.24,Stadtwerke Münster GmbH,--
+BNA0686,Von der BNetzA Terminiert,1989,in Betrieb,Kernenergie,Nein,,Gemeinschaftskernkraftwerk Neckarwestheim II,1310.0,EnBW Energie Baden-Württemberg AG,2022
+BNA0688,Berechneter Zeitpunkt der Stillegung,1997,in Betrieb,Erdgas,Ja,,GuD-HKW Neubrandenburg,75.0,"Neubrandenburger Stadtwerke GmbH /
+VASA Kraftwerkepool GmbH und Co. KG",--
+BNA0689,"Keine Stillegung, da KWK-Betrieb",1969,in Betrieb,Laufwasser,Nein,,Bittenbrunn,20.2,Donau-Wasserkraft AG,--
+BNA0693a,,1982,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,Heizkraftwerk NMS,67.4,SWN Stadtwerke Neumünster GmbH,
+BNA0693b,Berechneter Zeitpunkt der Stillegung,1982,vorläufig stillgelegt,Mineralölprodukte,Ja,,Heizkraftwerk NMS,1.9,SWN Stadtwerke Neumünster GmbH,2027
+BNA0693c,Berechneter Zeitpunkt der Stillegung,1982,in Betrieb,Mineralölprodukte,Ja,,Heizkraftwerk NMS,5.5,SWN Stadtwerke Neumünster GmbH,2027
+BNA0695,"Keine Stillegung, da KWK-Betrieb",1951,in Betrieb,Laufwasser,Nein,,Neuötting,26.1,VERBUND-Innkraftwerke GmbH,--
+BNA0696,Berechneter Zeitpunkt der Stillegung,1972,in Betrieb,Braunkohle,Nein,,Neurath,277.0,RWE Power AG,2017
+BNA0697,Berechneter Zeitpunkt der Stillegung,1972,in Betrieb,Braunkohle,Nein,,Neurath,288.0,RWE Power AG,2017
+BNA0698,Berechneter Zeitpunkt der Stillegung,1973,in Betrieb,Braunkohle,Nein,,Neurath,292.0,RWE Power AG,2018
+BNA0699,Berechneter Zeitpunkt der Stillegung,1975,in Betrieb,Braunkohle,Ja,,Neurath,607.0,RWE Power AG,2020
+BNA0700,Berechneter Zeitpunkt der Stillegung,1976,in Betrieb,Braunkohle,Ja,,Neurath,604.0,RWE Power AG,2021
+BNA0702,Berechneter Zeitpunkt der Stillegung,1996,in Betrieb,Erdgas,Ja,,Cogeneration,25.4,Bayernoil Raffineriegesellschaft mbH,--
+BNA0705,Berechneter Zeitpunkt der Stillegung,1968,in Betrieb,Braunkohle,Nein,,Niederaußem,297.0,RWE Power AG,2013
+BNA0706,Berechneter Zeitpunkt der Stillegung,1971,in Betrieb,Braunkohle,Nein,,Niederaußem,299.0,RWE Power AG,2016
+BNA0707,Berechneter Zeitpunkt der Stillegung,1974,in Betrieb,Braunkohle,Nein,,Niederaußem,648.0,RWE Power AG,2019
+BNA0708,Berechneter Zeitpunkt der Stillegung,1974,in Betrieb,Braunkohle,Ja,,Niederaußem,653.0,RWE Power AG,2019
+BNA0709,Berechneter Zeitpunkt der Stillegung,2002,in Betrieb,Braunkohle,Nein,,Niederaußem,944.0,RWE Power AG,2047
+BNA0710,Berechneter Zeitpunkt der Stillegung,1963,vorläufig stillgelegt,Braunkohle,Nein,,Niederaußem,125.0,RWE Power AG,2008
+BNA0711,Berechneter Zeitpunkt der Stillegung,1963,vorläufig stillgelegt,Braunkohle,Nein,,Niederaußem,125.0,RWE Power AG,2008
+BNA0712,Berechneter Zeitpunkt der Stillegung,1965,in Betrieb,Braunkohle,Nein,,Niederaußem,294.0,RWE Power AG,2010
+BNA0713,Berechneter Zeitpunkt der Stillegung,1970,in Betrieb,Braunkohle,Nein,,Niederaußem,295.0,RWE Power AG,2015
+BNA0714,Berechneter Zeitpunkt der Stillegung,1984,in Betrieb,Braunkohle,Ja,,Fortuna Nord,15.0,RWE Power AG,2029
+BNA0715,"Keine Stillegung, da KWK-Betrieb",1962,in Betrieb,Laufwasser,Nein,,Lehmen,20.0,RWE Innogy GmbH,--
+BNA0721,"Keine Stillegung, da KWK-Betrieb",1957,in Betrieb,Pumpspeicher,Nein,,Niederwartha,39.8,Vattenfall Europe Generation AG,--
+BNA0722,"Keine Stillegung, da KWK-Betrieb",1957,in Betrieb,Pumpspeicher,Nein,,Niederwartha,,Vattenfall Europe Generation AG,--
+BNA0734,Berechneter Zeitpunkt der Stillegung,1989,in Betrieb,Erdgas,Nein,,Thyrow,37.5,Vattenfall Europe Generation AG,2029
+BNA0735,Berechneter Zeitpunkt der Stillegung,1989,in Betrieb,Erdgas,Nein,,Thyrow,37.5,Vattenfall Europe Generation AG,2029
+BNA0736,Berechneter Zeitpunkt der Stillegung,1989,in Betrieb,Erdgas,Nein,,Thyrow,37.5,Vattenfall Europe Generation AG,2029
+BNA0737,Berechneter Zeitpunkt der Stillegung,1989,in Betrieb,Erdgas,Nein,,Thyrow,37.5,Vattenfall Europe Generation AG,2029
+BNA0738,Berechneter Zeitpunkt der Stillegung,1987,in Betrieb,Erdgas,Nein,,Thyrow,36.5,Vattenfall Europe Generation AG,2027
+BNA0739,Berechneter Zeitpunkt der Stillegung,1987,in Betrieb,Erdgas,Nein,,Thyrow,36.5,Vattenfall Europe Generation AG,2027
+BNA0740,Berechneter Zeitpunkt der Stillegung,1987,in Betrieb,Erdgas,Nein,,Thyrow,36.5,Vattenfall Europe Generation AG,2027
+BNA0741,Berechneter Zeitpunkt der Stillegung,1987,in Betrieb,Erdgas,Nein,,Thyrow,36.5,Vattenfall Europe Generation AG,2027
+BNA0742,Berechneter Zeitpunkt der Stillegung,2005,in Betrieb,Erdgas,Ja,GuD,HKW Sandreuth,75.0,N-ERGIE AG,--
+BNA0743,Berechneter Zeitpunkt der Stillegung,2005,in Betrieb,Erdgas,Ja,GuD,HKW Sandreuth,75.0,N-ERGIE AG,--
+BNA0744,Berechneter Zeitpunkt der Stillegung,1973,in Betrieb,Erdgas,Nein,,Franken 1,383.0,E.ON Kraftwerke GmbH,2013
+BNA0745,Berechneter Zeitpunkt der Stillegung,1976,in Betrieb,Erdgas,Nein,,Franken 1,440.0,E.ON Kraftwerke GmbH,2016
+BNA0746,"Keine Stillegung, da KWK-Betrieb",1996,in Betrieb,Abfall,Ja,,HKW Sandreuth,18.0,N-ERGIE AG,--
+BNA0747,"Keine Stillegung, da KWK-Betrieb",1982,in Betrieb,Laufwasser,Nein,,Nußdorf,36.6,Innwerk AG,--
+BNA0748,"Keine Stillegung, da KWK-Betrieb",1992,in Betrieb,Laufwasser,Nein,,Oberaudorf-Ebbs,30.0,Innwerk AG,--
+BNA0750,"Keine Stillegung, da KWK-Betrieb",1990,in Betrieb,Abfall,Ja,,GMVA Niederrhein,40.4,GMVA Gemeinschafts-Müll-Verbrennungsanlage Niederrhein GmbH,--
+BNA0751,"Keine Stillegung, da KWK-Betrieb",2006,in Betrieb,Abfall,Ja,,GMVA Niederrhein,21.1,GMVA Gemeinschafts-Müll-Verbrennungsanlage Niederrhein GmbH,--
+BNA0752,Berechneter Zeitpunkt der Stillegung,1972,in Betrieb,Erdgas,Ja,,HKW 1,23.1,Energieversorgung Oberhausen AG,--
+BNA0753,Berechneter Zeitpunkt der Stillegung,1995,in Betrieb,Erdgas,Ja,,HKW 2,24.5,Energieversorgung Oberhausen AG,--
+BNA0755a,Berechneter Zeitpunkt der Stillegung,1920,in Betrieb,Erdgas,Ja,,Obernburg,36.0,Kraftwerk Obernburg GmbH,--
+BNA0755b,Berechneter Zeitpunkt der Stillegung,1995,in Betrieb,Erdgas,Ja,,Obernburg,64.0,Kraftwerk Obernburg GmbH,--
+BNA0758,Berechneter Zeitpunkt der Stillegung,1990,in Betrieb,Steinkohle,ja,,Heizkraftwerk Offenbach,54.0,Energieversorgung Offenbach AG,2035
+BNA0759,Berechneter Zeitpunkt der Stillegung,1972,in Betrieb,Mineralölprodukte,Nein,,Itzehoe,88.0,E.ON Kraftwerke GmbH,2017
+BNA0766,Berechneter Zeitpunkt der Stillegung,1973,in Betrieb,Mineralölprodukte,Nein,,Audorf,87.0,E.ON Kraftwerke GmbH,2018
+BNA0777,"Keine Stillegung, da KWK-Betrieb",1968,in Betrieb,Pumpspeicher,Nein,,Kopswerk I ,247.0,EnBW Energie Baden-Württemberg AG,--
+BNA0778,"Keine Stillegung, da KWK-Betrieb",2008,in Betrieb,Pumpspeicher,Nein,,Kopswerk II ,525.0,EnBW Energie Baden-Württemberg AG,--
+BNA0779,,1968,in Betrieb,Speicherwasser (ohne Pumpspeicher),nein,,Obervermuntwerk,29.0,EnBW Energie Baden-Württemberg AG,
+BNA0780,,1930,in Betrieb,Speicherwasser (ohne Pumpspeicher),nein,,Vermuntwerk,158.0,EnBW Energie Baden-Württemberg AG,
+BNA0782,"Keine Stillegung, da KWK-Betrieb",1927,in Betrieb,Laufwasser,Nein,,Kachlet,53.7,Rhein-Main-Donau AG,--
+BNA0784,"Keine Stillegung, da KWK-Betrieb",1965,in Betrieb,Laufwasser,Nein,,Passau-Ingling,43.2,Innwerk AG,--
+BNA0785,Berechneter Zeitpunkt der Stillegung,1981,in Betrieb,Braunkohle,Ja,,KW Jänschwalde,465.0,Vattenfall Europe Generation AG,2026
+BNA0786,Berechneter Zeitpunkt der Stillegung,1982,in Betrieb,Braunkohle,Ja,,KW Jänschwalde,465.0,Vattenfall Europe Generation AG,2027
+BNA0787,Berechneter Zeitpunkt der Stillegung,1984,in Betrieb,Braunkohle,Ja,,KW Jänschwalde,465.0,Vattenfall Europe Generation AG,2029
+BNA0788,Berechneter Zeitpunkt der Stillegung,1985,in Betrieb,Braunkohle,Ja,,KW Jänschwalde,465.0,Vattenfall Europe Generation AG,2030
+BNA0789,Berechneter Zeitpunkt der Stillegung,1987,in Betrieb,Braunkohle,Ja,,KW Jänschwalde,465.0,Vattenfall Europe Generation AG,2032
+BNA0790,Berechneter Zeitpunkt der Stillegung,1989,in Betrieb,Braunkohle,Ja,,KW Jänschwalde,465.0,Vattenfall Europe Generation AG,2034
+BNA0792,"Keine Stillegung, da KWK-Betrieb",1977,in Betrieb,Laufwasser,Nein,,Perach,19.4,VERBUND-Innkraftwerke GmbH,--
+BNA0793,Berechneter Zeitpunkt der Stillegung,1987,in Betrieb,Steinkohle,Nein,,Heyden,875.0,E.ON Kraftwerke GmbH,2032
+BNA0795,"Keine Stillegung, da KWK-Betrieb",1985,in Betrieb,Laufwasser,Nein,,Geisling,25.0,Rhein-Main-Donau AG,--
+BNA0799,Berechneter Zeitpunkt der Stillegung,1969,in Betrieb,Erdgas,Ja,,Heizkraftwerk Pforzheim GmbH,11.3,Heizkraftwerk Pforzheim GmbH,--
+BNA0800,Von der BNetzA Terminiert,1980,in Betrieb,Erdgas,Ja,GuD,Heizkraftwerk Pforzheim GmbH,41.2,Heizkraftwerk Pforzheim GmbH,2016
+BNA0801,Berechneter Zeitpunkt der Stillegung,1990,in Betrieb,Steinkohle,Ja,,Heizkraftwerk Pforzheim GmbH,26.9,Heizkraftwerk Pforzheim GmbH,2035
+BNA0802,Von der BNetzA Terminiert,1985,in Betrieb,Kernenergie,Nein,,Kernkraftwerk Philippsburg 2,1402.0,EnBW Energie Baden-Württemberg AG,2019
+BNA0804a,Berechneter Zeitpunkt der Stillegung,1962,in Betrieb,Erdgas,Ja,,Hattorf,35.0,K+S AG,--
+BNA0804b,Berechneter Zeitpunkt der Stillegung,2013,in Betrieb,Erdgas,Ja,,Hattorf,17.3,K+S AG,--
+BNA0805,Berechneter Zeitpunkt der Stillegung,2010,in Betrieb,Erdgas,Ja,,Kraftwerk Plattling,97.9,Daimler AG / UPM GmbH,--
+BNA0810,Von der BNetzA Terminiert,1974,in Betrieb,Erdgas,Nein,,Kraftwerk Veltheim,65.0,Gemeinschaftskraftwerk Veltheim GmbH,2015
+BNA0811,Von der BNetzA Terminiert,1975,vorläufig stillgelegt,Erdgas,Nein,,Kraftwerk Veltheim,335.0,Gemeinschaftskraftwerk Veltheim GmbH,2015
+BNA0813,Von der BNetzA Terminiert,1970,in Betrieb,Steinkohle,Nein,,Kraftwerk Veltheim,303.0,Gemeinschaftskraftwerk Veltheim GmbH,2015
+BNA0814,Berechneter Zeitpunkt der Stillegung,1996,in Betrieb,Erdgas,Ja,,HKW Potsdam-Süd,81.8,Energie und Wasser Potsdam GmbH,--
+BNA0816,,1964,in Betrieb,Speicherwasser (ohne Pumpspeicher),Nein,,KW Kaunertal,392.0,TIWAG-Tiroler Wasserkraft AG,
+BNA0820,Berechneter Zeitpunkt der Stillegung,1976,in Betrieb,Steinkohle,ja,,Weiher,655.6,STEAG Power Saar GmbH,2021
+BNA0825,"Keine Stillegung, da KWK-Betrieb",1938,in Betrieb,Laufwasser,nein,,Rheinkraftwerk Reckingen,19.0,EnBW Energie Baden-Württemberg AG,--
+BNA0832,Berechneter Zeitpunkt der Stillegung,2011,in Betrieb,Erdgas,Ja,,BHKW-Hauffstraße,9.84,FairEnergie GmbH,--
+BNA0834,Berechneter Zeitpunkt der Stillegung,1975,in Betrieb,Steinkohle,ja,,Industrie-Kraftwerk,79.0,Solvay Chemicals GmbH,2020
+BNA0839,"Keine Stillegung, da KWK-Betrieb",1960,in Betrieb,Laufwasser,Nein,,Rosenheim,35.1,VERBUND-Innkraftwerke GmbH,--
+BNA0842a,Berechneter Zeitpunkt der Stillegung,2011,in Betrieb,Erdgas,Ja,,Gasmotore,9.81,Stadtwerke Rosenheim GmbH & Co. KG,--
+BNA0842b,Berechneter Zeitpunkt der Stillegung,2013,in Betrieb,Erdgas,Ja,,Gasmotor 4,9.2,Stadtwerke Rosenheim GmbH & Co. KG,--
+BNA0843,Berechneter Zeitpunkt der Stillegung,2012,in Betrieb,Erdgas,Ja,,Gasmotor 5,4.3,Stadtwerke Rosenheim GmbH & Co. KG,--
+BNA0845,"Keine Stillegung, da KWK-Betrieb",1988,in Betrieb,Abfall,Ja,,"MHKW, WKW",9.0,Stadtwerke Rosenheim GmbH & Co. KG,--
+BNA0847,,1954,in Betrieb,Speicherwasser (ohne Pumpspeicher),Nein,,Roßhaupten,45.5,E.ON Kraftwerke GmbH,
+BNA0848,Berechneter Zeitpunkt der Stillegung,1996,in Betrieb,Erdgas,Ja,,GuD Marienehe,108.0,Stadtwerke Rostock AG,--
+BNA0849,Berechneter Zeitpunkt der Stillegung,1994,in Betrieb,Steinkohle,Ja,,KNG Kraftwerk Rostock,508.0,EnBW Energie Baden-Württemberg AG,2039
+BNA0854,"Keine Stillegung, da KWK-Betrieb",1970,in Betrieb,Laufwasser,Nein,,Feldkirchen,38.2,VERBUND-Innkraftwerke GmbH,--
+BNA0855,"Keine Stillegung, da KWK-Betrieb",2009,in Betrieb,Abfall,Nein,,IKW Rüdersdorf,30.0,Vattenfall Europe New Energy Ecopower GmbH,--
+BNA0856,Berechneter Zeitpunkt der Stillegung,2008,in Betrieb,Erdgas,Ja,,HKW Schwarza,26.5,Energie- und Medienversorgung Schwarza GmbH,--
+BNA0857,Berechneter Zeitpunkt der Stillegung,1999,in Betrieb,Erdgas,Ja,GuD,GuD-Anlage Rüsselsheim,112.1,Adam Opel AG,--
+BNA0859,"Keine Stillegung, da KWK-Betrieb",1931,in Betrieb,Laufwasser,nein,,Rheinkraftwerk Ryburg-Schwörstadt ,30.0,EnBW Energie Baden-Württemberg AG,--
+BNA0861a,Berechneter Zeitpunkt der Stillegung,2012,in Betrieb,Erdgas,Ja,GuD,HKW Römerbrücke,75.0,Energie SaarLorLux AG,--
+BNA0861b,Berechneter Zeitpunkt der Stillegung,1988,in Betrieb,Steinkohle,Ja,,HKW Römerbrücke,50.0,Energie SaarLorLux AG,2033
+BNA0863,,1939,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,Kraftwerk Salzgitter,94.5,Salzgitter Flachstahl GmbH,
+BNA0864,,2010,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,Kraftwerk Salzgitter,97.0,Salzgitter Flachstahl GmbH,
+BNA0865b,,2010,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,Kraftwerk Salzgitter,97.0,Salzgitter Flachstahl GmbH,
+BNA0878,Berechneter Zeitpunkt der Stillegung,1996,in Betrieb,Braunkohle,Ja,,Schkopau,450.0,E.ON Kraftwerke GmbH,2041
+BNA0879,Berechneter Zeitpunkt der Stillegung,1996,in Betrieb,Braunkohle,Ja,,Schkopau,450.0,E.ON Kraftwerke GmbH,2041
+BNA0880,"Keine Stillegung, da KWK-Betrieb",1962,in Betrieb,Laufwasser,Nein,,Detzem,24.0,RWE Innogy GmbH,--
+BNA0882,"Keine Stillegung, da KWK-Betrieb",1932,in Betrieb,Pumpspeicher,Nein,,Bleiloch,79.8,Vattenfall Europe Generation AG,--
+BNA0883,"Keine Stillegung, da KWK-Betrieb",1932,in Betrieb,Pumpspeicher,Nein,,Bleiloch,,Vattenfall Europe Generation AG,--
+BNA0893,Berechneter Zeitpunkt der Stillegung,1994,in Betrieb,Erdgas,Ja,,GuD Schwarzheide,122.0,BASF Schwarzheide GmbH,--
+BNA0894a,Berechneter Zeitpunkt der Stillegung,1972,in Betrieb,Mineralölprodukte,Ja,,IKS PCK Schwedt,28.0,PCK Raffinerie GmbH,2017
+BNA0894b,Berechneter Zeitpunkt der Stillegung,1994,in Betrieb,Mineralölprodukte,Nein,,IKS PCK Schwedt,34.5,PCK Raffinerie GmbH,2039
+BNA0894c,Berechneter Zeitpunkt der Stillegung,1998,in Betrieb,Mineralölprodukte,Ja,,IKS PCK Schwedt,106.0,PCK Raffinerie GmbH,2043
+BNA0894d,Berechneter Zeitpunkt der Stillegung,1998,in Betrieb,Mineralölprodukte,Ja,,IKS PCK Schwedt,106.0,PCK Raffinerie GmbH,2043
+BNA0894e,Berechneter Zeitpunkt der Stillegung,2011,in Betrieb,Mineralölprodukte,Nein,,IKS PCK Schwedt,59.0,PCK Raffinerie GmbH,2056
+BNA0896,Berechneter Zeitpunkt der Stillegung,1994,in Betrieb,Erdgas,Ja,,HKW Schwerin Süd,44.9,Energieversorgung Schwerin GmbH & Co. Erzeugung KG,--
+BNA0897,Berechneter Zeitpunkt der Stillegung,1994,in Betrieb,Erdgas,Ja,,HKW Schwerin Lankow,23.0,Energieversorgung Schwerin GmbH & Co. Erzeugung KG,--
+BNA0906,,1981,in Betrieb,Speicherwasser (ohne Pumpspeicher),Nein,,KW Silz,500.0,TIWAG-Tiroler Wasserkraft AG,
+BNA0912,"Keine Stillegung, da KWK-Betrieb",1938,in Betrieb,Laufwasser,Nein,,Teufelsbruck,25.0,VERBUND-Innkraftwerke GmbH,--
+BNA0914,Berechneter Zeitpunkt der Stillegung,1997,in Betrieb,Braunkohle,Ja,,Schwarze Pumpe,750.0,Vattenfall Europe Generation AG,2042
+BNA0915,Berechneter Zeitpunkt der Stillegung,1998,in Betrieb,Braunkohle,Ja,,Schwarze Pumpe,750.0,Vattenfall Europe Generation AG,2043
+BNA0917,"Keine Stillegung, da KWK-Betrieb",1963,in Betrieb,Laufwasser,Nein,,Schärding-Neuhaus,48.0,Innwerk AG,--
+BNA0918a,Berechneter Zeitpunkt der Stillegung,1972,in Betrieb,Erdgas,Ja,,Dow Stade,190.0,Dow Deutschland Anlagengesellschaft mbH,--
+BNA0918b,Berechneter Zeitpunkt der Stillegung,2014,in Betrieb,Erdgas,Ja,,Dow Stade,163.0,Dow Deutschland Anlagengesellschaft mbH,--
+BNA0921,"Keine Stillegung, da KWK-Betrieb",1955,in Betrieb,Laufwasser,Nein,,Stammham,23.2,VERBUND-Innkraftwerke GmbH,--
+BNA0922,Berechneter Zeitpunkt der Stillegung,1996,in Betrieb,Erdgas,Ja,,GuD-Ikw Staßfurt,132.0,KWG-Kraftwerksgesellschaft Staßfurt mbH,--
+BNA0926b,Berechneter Zeitpunkt der Stillegung,1969,in Betrieb,Steinkohle,Ja,,Heizkraftwerk der Sappi Stockstadt GmbH,24.79,Sappi Stockstadt GmbH,2014
+BNA0929,"Keine Stillegung, da KWK-Betrieb",1994,in Betrieb,Laufwasser,Nein,,Straubing,21.5,Rhein-Main-Donau AG,--
+BNA0934,Berechneter Zeitpunkt der Stillegung,2009,in Betrieb,Steinkohle,Ja,,Heizkraftwerk Stuttgart-Gaisburg,22.6,EnBW Energie Baden-Württemberg AG,2054
+BNA0935,Berechneter Zeitpunkt der Stillegung,1982,in Betrieb,Steinkohle,Ja,,Restmüll-Heizkraftwerk Stuttgart-Münster,45.0,EnBW Energie Baden-Württemberg AG,2027
+BNA0936,Berechneter Zeitpunkt der Stillegung,1984,in Betrieb,Steinkohle,Ja,,Restmüll-Heizkraftwerk Stuttgart-Münster,45.0,EnBW Energie Baden-Württemberg AG,2029
+BNA0937,Berechneter Zeitpunkt der Stillegung,1974,in Betrieb,Mineralölprodukte,Nein,,Restmüll-Heizkraftwerk Stuttgart-Münster,23.3,EnBW Energie Baden-Württemberg AG,2019
+BNA0938,Berechneter Zeitpunkt der Stillegung,1974,in Betrieb,Mineralölprodukte,Nein,,Restmüll-Heizkraftwerk Stuttgart-Münster,23.3,EnBW Energie Baden-Württemberg AG,2019
+BNA0939a,"Keine Stillegung, da KWK-Betrieb",2009,in Betrieb,Abfall,Ja,,Restmüll-Heizkraftwerk Stuttgart-Münster,19.5,EnBW Energie Baden-Württemberg AG,--
+BNA0939b,Berechneter Zeitpunkt der Stillegung,1974,in Betrieb,Mineralölprodukte,Nein,,Restmüll-Heizkraftwerk Stuttgart-Münster,23.3,EnBW Energie Baden-Württemberg AG,2019
+BNA0946a,"Keine Stillegung, da KWK-Betrieb",1959,in Betrieb,Pumpspeicher,Nein,,Kraftwerksgruppe Pfreimd,28.0,GDF SUEZ Energie Deutschland AG,--
+BNA0950,"Keine Stillegung, da KWK-Betrieb",1924,in Betrieb,Laufwasser,Nein,,Töging,85.3,VERBUND-Innkraftwerke GmbH,--
+BNA0953,"Keine Stillegung, da KWK-Betrieb",1955,in Betrieb,Pumpspeicher,Nein,,Kraftwerksgruppe Pfreimd,99.0,GDF SUEZ Energie Deutschland AG,--
+BNA0954,"Keine Stillegung, da KWK-Betrieb",1957,in Betrieb,Pumpspeicher,nein,,Lünerseewerk,238.0,EnBW Energie Baden-Württemberg AG,--
+BNA0957,Berechneter Zeitpunkt der Stillegung,2000,in Betrieb,Erdgas,Ja,,BHKW Obere Viehweide,13.4,Stadtwerke Tübingen GmbH,--
+BNA0969a,"Keine Stillegung, da KWK-Betrieb",1992,in Betrieb,Abfall,Ja,,Nord 1,18.0,SWM Services GmbH,--
+BNA0969b,Berechneter Zeitpunkt der Stillegung,1991,in Betrieb,Steinkohle,Ja,,Nord 2,333.0,SWM Services GmbH,2036
+BNA0969c,"Keine Stillegung, da KWK-Betrieb",1984,in Betrieb,Abfall,Ja,,Nord 3,22.0,SWM Services GmbH,--
+BNA0972,"Keine Stillegung, da KWK-Betrieb",1983,in Betrieb,Pumpspeicher,Nein,,Leitzach 1,49.0,Stadtwerke München GmbH,--
+BNA0973,"Keine Stillegung, da KWK-Betrieb",1960,in Betrieb,Pumpspeicher,Nein,,Leitzach 2,49.8,Stadtwerke München GmbH,--
+BNA0974,"Keine Stillegung, da KWK-Betrieb",1943,in Betrieb,Pumpspeicher,nein,,Rodundwerk I,198.0,EnBW Energie Baden-Württemberg AG,--
+BNA0975,"Keine Stillegung, da KWK-Betrieb",2012,in Betrieb,Pumpspeicher,nein,,Rodundwerk II,295.0,EnBW Energie Baden-Württemberg AG,--
+BNA0978,"Keine Stillegung, da KWK-Betrieb",1964,in Betrieb,Pumpspeicher,Nein,,PSW Vianden,100.0,Société Electrique de l'Our S.A.,--
+BNA0979,"Keine Stillegung, da KWK-Betrieb",1964,in Betrieb,Pumpspeicher,Nein,,PSW Vianden,100.0,Société Electrique de l'Our S.A.,--
+BNA0980,"Keine Stillegung, da KWK-Betrieb",1963,in Betrieb,Pumpspeicher,Nein,,PSW Vianden,100.0,Société Electrique de l'Our S.A.,--
+BNA0981,"Keine Stillegung, da KWK-Betrieb",1964,in Betrieb,Pumpspeicher,Nein,,PSW Vianden,100.0,Société Electrique de l'Our S.A.,--
+BNA0982,"Keine Stillegung, da KWK-Betrieb",1962,in Betrieb,Pumpspeicher,Nein,,PSW Vianden,100.0,Société Electrique de l'Our S.A.,--
+BNA0983,"Keine Stillegung, da KWK-Betrieb",1962,in Betrieb,Pumpspeicher,Nein,,PSW Vianden,100.0,Société Electrique de l'Our S.A.,--
+BNA0984,"Keine Stillegung, da KWK-Betrieb",1963,in Betrieb,Pumpspeicher,Nein,,PSW Vianden,100.0,Société Electrique de l'Our S.A.,--
+BNA0985,"Keine Stillegung, da KWK-Betrieb",1963,in Betrieb,Pumpspeicher,Nein,,PSW Vianden,100.0,Société Electrique de l'Our S.A.,--
+BNA0986,"Keine Stillegung, da KWK-Betrieb",1963,in Betrieb,Pumpspeicher,Nein,,PSW Vianden,100.0,Société Electrique de l'Our S.A.,--
+BNA0987,"Keine Stillegung, da KWK-Betrieb",1975,in Betrieb,Pumpspeicher,Nein,,PSW Vianden,196.0,Société Electrique de l'Our S.A.,--
+BNA0989,Berechneter Zeitpunkt der Stillegung,1971,in Betrieb,Steinkohle,Nein,,KW West,318.0,Steag GmbH,2016
+BNA0990,Berechneter Zeitpunkt der Stillegung,1971,in Betrieb,Steinkohle,Nein,,KW West,322.0,Steag GmbH,2016
+BNA0991,Berechneter Zeitpunkt der Stillegung,1982,in Betrieb,Steinkohle,Nein,,KW Voerde,695.0,Steag GmbH,2027
+BNA0992,Berechneter Zeitpunkt der Stillegung,1985,in Betrieb,Steinkohle,Nein,,KW Voerde,695.0,Steag GmbH,2030
+BNA0993,Von der BNetzA Terminiert,1974,Reservekraftwerk,Erdgas,Nein,,Irsching,415.0,E.ON Kraftwerke GmbH,2016
+BNA0994,Berechneter Zeitpunkt der Stillegung,2010,in Betrieb,Erdgas,Nein,,Gemeinschaftskraftwerk Irsching ,846.0,Gemeinschaftskraftwerk Irsching GmbH,2050
+BNA0995,Berechneter Zeitpunkt der Stillegung,2011,in Betrieb,Erdgas,Nein,,"Ulrich Hartmann
+(Irsching)",545.0,E.ON Kraftwerke GmbH,2051
+BNA0996,"Keine Stillegung, da KWK-Betrieb",1992,in Betrieb,Laufwasser,Nein,,Vohburg,23.3,Donau-Wasserkraft AG,--
+BNA0998,Berechneter Zeitpunkt der Stillegung,1982,in Betrieb,Steinkohle,ja,,Modellkraftwerk,179.0,STEAG Power Saar GmbH,2027
+BNA0999,Berechneter Zeitpunkt der Stillegung,1989,in Betrieb,Steinkohle,ja,,Heizkraftwerk,211.0,STEAG Power Saar GmbH,2034
+BNA1002,Berechneter Zeitpunkt der Stillegung,1994,in Betrieb,Braunkohle,Ja,,Wählitz,31.0,Mitteldeutsche Braunkohlengesellschaft mbH,2039
+BNA1003,"Keine Stillegung, da KWK-Betrieb",1951,in Betrieb,Pumpspeicher,Nein,,Kraftwerk Waldshut,150.0,Schluchseewerk Aktiengesellschaft,--
+BNA1004,Berechneter Zeitpunkt der Stillegung,1981,in Betrieb,Mineralölprodukte,Nein,,Kraftwerk Walheim,136.0,EnBW Energie Baden-Württemberg AG,2026
+BNA1005,Berechneter Zeitpunkt der Stillegung,1964,Reservekraftwerk,Steinkohle,Nein,,Kraftwerk Walheim,96.0,EnBW Energie Baden-Württemberg AG,2009
+BNA1006,Berechneter Zeitpunkt der Stillegung,1967,Reservekraftwerk,Steinkohle,Nein,,Kraftwerk Walheim,148.0,EnBW Energie Baden-Württemberg AG,2012
+BNA1007a,Berechneter Zeitpunkt der Stillegung,1988,in Betrieb,Mineralölprodukte,Nein,,SKW Gasturbine,24.0,Allgäuer Überlandwerk GmbH,2033
+BNA1007b,Berechneter Zeitpunkt der Stillegung,1978,in Betrieb,Mineralölprodukte,Nein,,SKW Diesel,10.5,Allgäuer Überlandwerk GmbH,2023
+BNA1008,"Keine Stillegung, da KWK-Betrieb",1930,in Betrieb,Laufwasser,Nein,,Uppenborn 1,25.0,Stadtwerke München GmbH,--
+BNA1013,"Keine Stillegung, da KWK-Betrieb",1938,in Betrieb,Laufwasser,Nein,,Wasserburg,24.1,VERBUND-Innkraftwerke GmbH,--
+BNA1015,Berechneter Zeitpunkt der Stillegung,1972,in Betrieb,Mineralölprodukte,Nein,,Wedel,50.5,Vattenfall Europe Generation AG,2017
+BNA1016,Berechneter Zeitpunkt der Stillegung,1972,in Betrieb,Mineralölprodukte,Nein,,Wedel,50.5,Vattenfall Europe Generation AG,2017
+BNA1019,"Keine Stillegung, da KWK-Betrieb",1975,in Betrieb,Pumpspeicher,Nein,,Wehr,910.0,Schluchseewerk Aktiengesellschaft,--
+BNA1020,"Keine Stillegung, da KWK-Betrieb",1996,in Betrieb,Abfall,Ja,,MVA Weisweiler,24.0,RWE Power AG,--
+BNA1023,Berechneter Zeitpunkt der Stillegung,2006,vorläufig stillgelegt,Erdgas,Nein,,Weisweiler,272.0,RWE Power AG,2046
+BNA1024,Berechneter Zeitpunkt der Stillegung,2006,vorläufig stillgelegt,Erdgas,Nein,,Weisweiler,272.0,RWE Power AG,2046
+BNA1025,Berechneter Zeitpunkt der Stillegung,1965,in Betrieb,Braunkohle,Nein,,Weisweiler,312.0,RWE Power AG,2010
+BNA1026,Berechneter Zeitpunkt der Stillegung,1967,in Betrieb,Braunkohle,Nein,,Weisweiler,304.0,RWE Power AG,2012
+BNA1027,Berechneter Zeitpunkt der Stillegung,1974,in Betrieb,Braunkohle,Ja,,Weisweiler,592.0,RWE Power AG,2019
+BNA1028,Berechneter Zeitpunkt der Stillegung,1975,in Betrieb,Braunkohle,Ja,,Weisweiler,592.0,RWE Power AG,2020
+BNA1031,"Keine Stillegung, da KWK-Betrieb",1967,in Betrieb,Pumpspeicher,Nein,,Wendefurth,79.7,Vattenfall Europe Generation AG,--
+BNA1032,"Keine Stillegung, da KWK-Betrieb",1968,in Betrieb,Pumpspeicher,Nein,,Wendefurth,,Vattenfall Europe Generation AG,--
+BNA1036,Berechneter Zeitpunkt der Stillegung,1975,vorläufig stillgelegt,Mineralölprodukte,nan,,Kraftwerk Werdohl-Elverlingsen,206.0,Mark-E AG,2020
+BNA1037,Berechneter Zeitpunkt der Stillegung,1982,in Betrieb,Steinkohle,nan,,Kraftwerk Werdohl-Elverlingsen,310.0,Mark-E AG,2027
+BNA1039,Berechneter Zeitpunkt der Stillegung,1973,in Betrieb,Erdgas,Nein,,Gersteinwerk,55.0,RWE Generation SE,2013
+BNA1040,Berechneter Zeitpunkt der Stillegung,1973,in Betrieb,Erdgas,Nein,,Gersteinwerk,55.0,RWE Generation SE,2013
+BNA1041,Berechneter Zeitpunkt der Stillegung,1973,in Betrieb,Erdgas,Nein,,Gersteinwerk,55.0,RWE Generation SE,2013
+BNA1042,Berechneter Zeitpunkt der Stillegung,1973,in Betrieb,Erdgas,Nein,,Gersteinwerk,55.0,RWE Generation SE,2013
+BNA1043,Berechneter Zeitpunkt der Stillegung,1973,vorläufig stillgelegt,Erdgas,Nein,,Gersteinwerk,355.0,RWE Generation SE,2013
+BNA1044,Berechneter Zeitpunkt der Stillegung,1973,vorläufig stillgelegt,Erdgas,Nein,,Gersteinwerk,355.0,RWE Generation SE,2013
+BNA1045,Berechneter Zeitpunkt der Stillegung,1973,vorläufig stillgelegt,Erdgas,Nein,,Gersteinwerk,355.0,RWE Generation SE,2013
+BNA1046a,Berechneter Zeitpunkt der Stillegung,1984,in Betrieb,Steinkohle,Nein,,Gersteinwerk,607.5,RWE Generation SE,2029
+BNA1046b,Berechneter Zeitpunkt der Stillegung,1984,in Betrieb,Erdgas,Nein,,Gersteinwerk,112.0,RWE Generation SE,2024
+BNA1056,Berechneter Zeitpunkt der Stillegung,2006,in Betrieb,Erdgas,Ja,,Wi-Biebrich,25.015,InfraServ GmbH & Co. Wiesbaden KG,--
+BNA1060,Berechneter Zeitpunkt der Stillegung,1973,in Betrieb,Mineralölprodukte,Nein,,Wilhelmshaven,56.0,E.ON Kraftwerke GmbH,2018
+BNA1061,Berechneter Zeitpunkt der Stillegung,1976,in Betrieb,Steinkohle,Nein,,Wilhelmshaven,757.0,E.ON Kraftwerke GmbH,2021
+BNA1066,"Keine Stillegung, da KWK-Betrieb",1965,in Betrieb,Laufwasser,Nein,,Wintrich,20.0,RWE Innogy GmbH,--
+BNA1071,"Keine Stillegung, da KWK-Betrieb",1943,in Betrieb,Pumpspeicher,Nein,,Witznau,220.0,Schluchseewerk Aktiengesellschaft,--
+BNA1074,Berechneter Zeitpunkt der Stillegung,1997,in Betrieb,Erdgas,Nein,,Spitzenlastkraftwerk Wolfen,40.0,envia THERM GmbH,2037
+BNA1075a,Berechneter Zeitpunkt der Stillegung,2000,in Betrieb,Steinkohle,Ja,,HKW Nord,61.5,Volkswagen AG,2045
+BNA1075b,Berechneter Zeitpunkt der Stillegung,2000,in Betrieb,Steinkohle,Ja,,HKW Nord,61.5,Volkswagen AG,2045
+BNA1076a,Berechneter Zeitpunkt der Stillegung,1985,in Betrieb,Steinkohle,Ja,,HKW West,138.5,Volkswagen AG,2030
+BNA1076b,Berechneter Zeitpunkt der Stillegung,1985,in Betrieb,Steinkohle,Ja,,HKW West,138.5,Volkswagen AG,2030
+BNA1078,Berechneter Zeitpunkt der Stillegung,2008,in Betrieb,Erdgas,Ja,,HKW Wörth,59.0,Palm Power GmbH & Co. KG,--
+BNA1082,Berechneter Zeitpunkt der Stillegung,2005,in Betrieb,Erdgas,Ja,,HKW Barmen,82.0,WSW Energie & Wasser AG,--
+BNA1083,Berechneter Zeitpunkt der Stillegung,2008,in Betrieb,Mineralölprodukte,Nein,,Spitzenlastanlage Barmen,60.0,WSW Energie & Wasser AG,2053
+BNA1084,Berechneter Zeitpunkt der Stillegung,1989,in Betrieb,Steinkohle,Ja,,HKW Elberfeld ,85.0,WSW Energie & Wasser AG,2034
+BNA1085,Berechneter Zeitpunkt der Stillegung,1971,in Betrieb,Erdgas,Ja,,Heizkraftwerke an der Friedensbrücke,23.0,Heizkraftwerk Würzburg GmbH,--
+BNA1086,Berechneter Zeitpunkt der Stillegung,1993,in Betrieb,Erdgas,Ja,,Heizkraftwerke an der Friedensbrücke,25.0,Heizkraftwerk Würzburg GmbH,--
+BNA1087,Berechneter Zeitpunkt der Stillegung,2009,in Betrieb,Erdgas,Ja,,Heizkraftwerke an der Friedensbrücke,29.5,Heizkraftwerk Würzburg GmbH,--
+BNA1088,Berechneter Zeitpunkt der Stillegung,2005,in Betrieb,Erdgas,Ja,,Heizkraftwerke an der Friedensbrücke,44.5,Heizkraftwerk Würzburg GmbH,--
+BNA1089,Berechneter Zeitpunkt der Stillegung,1996,in Betrieb,Erdgas,Ja,,Zielitz,52.0,K+S AG,--
+BNA1092,Berechneter Zeitpunkt der Stillegung,1976,in Betrieb,Mineralölprodukte,Nein,,Zolling,46.0,GDF SUEZ Energie Deutschland AG,2021
+BNA1093,Berechneter Zeitpunkt der Stillegung,1986,in Betrieb,Steinkohle,Ja,,Zolling,472.0,GDF SUEZ Energie Deutschland AG,2031
+BNA1094,Berechneter Zeitpunkt der Stillegung,1966,in Betrieb,Erdgas,Ja,,Gaskraftwerk,15.1,Smurfit Kappa Zülpich Papier GmbH,--
+BNA1097,Berechneter Zeitpunkt der Stillegung,2010,in Betrieb,Braunkohle,Ja,,Kohlekraftwerk,14.4,Smurfit Kappa Zülpich Papier GmbH,2055
+BNA1102,,1965,in Betrieb,Speicherwasser (ohne Pumpspeicher),Nein,,Bigge,15.0,Lister- und Lennekraftwerke GmbH,
+BNA1103,Berechneter Zeitpunkt der Stillegung,1966,in Betrieb,Erdgas,Ja,,UPM Augsburg,29.0,UPM GmbH,--
+BNA1104,Berechneter Zeitpunkt der Stillegung,1976,in Betrieb,Erdgas,Ja,,Heizkraftwerk,18.0,Stadtwerke Augsburg Energie GmbH,--
+BNA1105,Berechneter Zeitpunkt der Stillegung,1994,in Betrieb,Erdgas,Ja,,HKW Bad Salzungen,9.7,Thüringer Energie AG,--
+BNA1108,"Keine Stillegung, da KWK-Betrieb",2010,in Betrieb,Abfall,ja,,PD energy GmbH,9.9,PD energy GmbH,--
+BNA1110,"Keine Stillegung, da KWK-Betrieb",1999,in Betrieb,Abfall,ja,,Restmüllheizkraftwerk Böblingen,9.5,Zweckverband Restmüllheizkraftwerk Böblingen,--
+BNA1114,"Keine Stillegung, da KWK-Betrieb",2012,in Betrieb,Abfall,Ja,,MHKW,44.0,swb Entsorgung GmbH & Co. KG,--
+BNA1115,,2010,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",ja,,Gichtgaskraftwerk Dillingen,85.0,"Aktien-Gesellschaft der Dillinger Hüttenwerke, ROGESA Roheisengesellschaft Saar mbH und Zentralkokerei Saar GmbH, als Bruchteilsgemeinschaft",
+BNA1116,"Keine Stillegung, da KWK-Betrieb",1977,in Betrieb,Abfall,ja,,BEG,14.0,Bremerhavener Entsorgungsgesellschaft mbH,--
+BNA1117,Berechneter Zeitpunkt der Stillegung,1999,in Betrieb,Erdgas,Ja,,Industriekraftwerk Breuberg,11.4,Industriekraftwerk Breuberg GmbH,--
+BNA1118,"Keine Stillegung, da KWK-Betrieb",1967,in Betrieb,Laufwasser,Nein,,Dessau,10.3,E.ON Kraftwerke GmbH,--
+BNA1119,"Keine Stillegung, da KWK-Betrieb",1994,in Betrieb,Abfall,Nein,,MHKW Burgkirchen,12.5,Zweckverband Abfallverwertung Südostbayern,--
+BNA1120,Berechneter Zeitpunkt der Stillegung,1991,in Betrieb,Erdgas,Ja,,Energiezentrale,10.2,RÜTGERS InfraTec GmbH,--
+BNA1121,Berechneter Zeitpunkt der Stillegung,2005,in Betrieb,Erdgas,Ja,,Energiezentrale,0.88,RÜTGERS InfraTec GmbH,--
+BNA1125,Berechneter Zeitpunkt der Stillegung,1999,in Betrieb,Erdgas,Ja,,Heizkraftwerk,10.0,Merck KGaA,--
+BNA1126,"Keine Stillegung, da KWK-Betrieb",1927,in Betrieb,Laufwasser,Nein,,Dettingen,11.0,EnBW Energie Baden-Württemberg AG,--
+BNA1127,Von der BNetzA Terminiert,1998,in Betrieb,Erdgas,Ja,,GHD,6.7,GHD Bayernwerk Natur GmbH & Co. KG,2016
+BNA1128,Von der BNetzA Terminiert,1998,in Betrieb,Erdgas,Ja,,GHD,6.7,GHD Bayernwerk Natur GmbH & Co. KG,2016
+BNA1129,"Keine Stillegung, da KWK-Betrieb",1957,in Betrieb,Laufwasser,Nein,,Dingolfing,15.0,E.ON Kraftwerke GmbH,--
+BNA1131,Berechneter Zeitpunkt der Stillegung,2011,in Betrieb,Erdgas,Ja,,"MT, Düren",13.96,Metsä Tissue GmbH Werk Düren,--
+BNA1134,"Keine Stillegung, da KWK-Betrieb",1925,in Betrieb,Laufwasser,Nein,,Eitting,26.0,E.ON Kraftwerke GmbH,--
+BNA1135,"Keine Stillegung, da KWK-Betrieb",1963,in Betrieb,Laufwasser,Nein,,Fankel,16.4,RWE Innogy GmbH,--
+BNA1136,"Keine Stillegung, da KWK-Betrieb",1952,in Betrieb,Laufwasser,Nein,,Ellgau,9.7,Rhein-Main-Donau AG,--
+BNA1137,"Keine Stillegung, da KWK-Betrieb",1966,in Betrieb,Laufwasser,Nein,,Enkirch,18.4,RWE Innogy GmbH,--
+BNA1138,Berechneter Zeitpunkt der Stillegung,2000,in Betrieb,Erdgas,Ja,,BHKW an Klinkerweg,10.2,Stadtwerke Erkrath GmbH,--
+BNA1139,"Keine Stillegung, da KWK-Betrieb",2005,in Betrieb,Abfall,Ja,,TREA Breisgau,13.6,EEW Energy from Waste Saarbrücken GmbH,--
+BNA1140,"Keine Stillegung, da KWK-Betrieb",1951,in Betrieb,Laufwasser,Nein,,Altheim,17.8,E.ON Kraftwerke GmbH,--
+BNA1141,Berechneter Zeitpunkt der Stillegung,2013,in Betrieb,Braunkohle,Ja,,P&L Werk Euskirchen,14.5,Pfeifer & Langen Kommanditgesellschaft,2058
+BNA1143,"Keine Stillegung, da KWK-Betrieb",1985,in Betrieb,Laufwasser,Nein,,Serrig,12.1,RWE Innogy GmbH,--
+BNA1144,"Keine Stillegung, da KWK-Betrieb",2009,in Betrieb,Abfall,Ja,,EEW Göppingen,11.0,EEW Energy from Waste Göppingen GmbH,--
+BNA1148,"Keine Stillegung, da KWK-Betrieb",1985,in Betrieb,Abfall,ja,,MVA Hamm,14.58,MHB Hamm Betriebsführungsgesellschaft mbH,--
+BNA1151,Berechneter Zeitpunkt der Stillegung,2002,in Betrieb,Erdgas,Ja,,KWKK Heidelberg,13.5,RWE Innogy GmbH,--
+BNA1152,"Keine Stillegung, da KWK-Betrieb",1938,in Betrieb,Laufwasser,Nein,,Schwammenauel,14.0,RWE Innogy GmbH,--
+BNA1153,"Keine Stillegung, da KWK-Betrieb",1905,in Betrieb,Laufwasser,Nein,,Heimbach,16.0,RWE Innogy GmbH,--
+BNA1154,"Keine Stillegung, da KWK-Betrieb",1982,in Betrieb,Abfall,Ja,,RZR Herten I,12.5,AGR Abfallentsorgungsgesellschaft Ruhrgebiet mbH,--
+BNA1155,"Keine Stillegung, da KWK-Betrieb",2009,in Betrieb,Abfall,Nein,,RZR Herten II,17.1,AGR Abfallentsorgungsgesellschaft Ruhrgebiet mbH,--
+BNA1157,"Keine Stillegung, da KWK-Betrieb",1982,in Betrieb,Laufwasser,Nein,,Höchstädt,10.0,Mittlere Donau Kraftwerke AG,--
+BNA1160,"Keine Stillegung, da KWK-Betrieb",1971,in Betrieb,Laufwasser,Nein,,Ingolstadt,19.8,Donau-Wasserkraft AG,--
+BNA1161,"Keine Stillegung, da KWK-Betrieb",1984,in Betrieb,Abfall,Ja,,MVA Ingolstadt,25.5,Zweckverband Müllverwertungsanlage Ingolstadt (MVA Ingolstadt),--
+BNA1164,Berechneter Zeitpunkt der Stillegung,2004,in Betrieb,Braunkohle,ja,,P&L Werk Jülich,24.6,Pfeifer & Langen Kommanditgesellschaft,2049
+BNA1165,Berechneter Zeitpunkt der Stillegung,2004,in Betrieb,Erdgas,ja,,P&L Werk Appeldorn,11.4,Pfeifer & Langen Kommanditgesellschaft,--
+BNA1166,Berechneter Zeitpunkt der Stillegung,1997,in Betrieb,Mineralölprodukte,Nein,,Abfallentsorgungszentrum Asdonkshof,4.8,Kreis Weseler Abfallgesellschaft mbH & Co. KG (KWA),2042
+BNA1167,"Keine Stillegung, da KWK-Betrieb",1997,in Betrieb,Abfall,ja,,Abfallentsorgungszentrum Asdonkshof,16.0,Kreis Weseler Abfallgesellschaft mbH & Co. KG (KWA),--
+BNA1168,"Keine Stillegung, da KWK-Betrieb",1985,in Betrieb,Abfall,Ja,,Müllheizkraftwerk,14.7,Müllheizkraftwerk Kassel GmbH,--
+BNA1169,"Keine Stillegung, da KWK-Betrieb",1975,in Betrieb,Laufwasser,Nein,,Kaufering,16.7,E.ON Kraftwerke GmbH,--
+BNA1175,"Keine Stillegung, da KWK-Betrieb",1959,in Betrieb,Laufwasser,Nein,,Unteropfingen,14.2,EnBW Energie Baden-Württemberg AG,--
+BNA1181,"Keine Stillegung, da KWK-Betrieb",1951,in Betrieb,Laufwasser,Nein,,Koblenz,16.0,RWE Innogy GmbH,--
+BNA1182,Berechneter Zeitpunkt der Stillegung,1965,in Betrieb,Erdgas,Ja,,HKW Merkenich,15.5,RheinEnergie AG,--
+BNA1183,Berechneter Zeitpunkt der Stillegung,2001,in Betrieb,Erdgas,Ja,GuD,HKW Merheim,15.8,RheinEnergie AG,--
+BNA1184,"Keine Stillegung, da KWK-Betrieb",1997,in Betrieb,Abfall,Ja,,RMVA Köln,45.1,AVG Köln mbH,--
+BNA1185,Berechneter Zeitpunkt der Stillegung,1993,in Betrieb,Braunkohle,ja,,P&L Werk Könnern,20.3,Pfeifer & Langen Kommanditgesellschaft,2038
+BNA1186a,"Keine Stillegung, da KWK-Betrieb",1982,in Betrieb,Abfall,Ja,,MKVA Krefeld,13.5,EGK Entsorgungsgesellschaft Krefeld GmbH & Co.KG,--
+BNA1186b,"Keine Stillegung, da KWK-Betrieb",2001,in Betrieb,Abfall,Nein,,MKVA Krefeld,13.8,EGK Entsorgungsgesellschaft Krefeld GmbH & Co.KG,--
+BNA1186c,"Keine Stillegung, da KWK-Betrieb",1976,in Betrieb,Abfall,Ja,,MKVA Krefeld,1.5,EGK Entsorgungsgesellschaft Krefeld GmbH & Co.KG,--
+BNA1186d,"Keine Stillegung, da KWK-Betrieb",1997,in Betrieb,Abfall,Ja,,MKVA Krefeld,2.8,EGK Entsorgungsgesellschaft Krefeld GmbH & Co.KG,--
+BNA1186e,"Keine Stillegung, da KWK-Betrieb",1976,in Betrieb,Abfall,Ja,,MKVA Krefeld,1.5,EGK Entsorgungsgesellschaft Krefeld GmbH & Co.KG,--
+BNA1187,Berechneter Zeitpunkt der Stillegung,1980,in Betrieb,Erdgas,ja,,P&L Werk Lage,10.2,Pfeifer & Langen Kommanditgesellschaft,--
+BNA1189,"Keine Stillegung, da KWK-Betrieb",1965,in Betrieb,Laufwasser,nan,,Faimingen,10.1,Obere Donau Kraftwerke AG,--
+BNA1190,"Keine Stillegung, da KWK-Betrieb",2004,in Betrieb,Abfall,Ja,,Thermische Abfallbehandlung Lauta GmbH & Co. oHG,15.7,Thermische Abfallbehandlung Lauta GmbH & Co. oHG,--
+BNA1191,"Keine Stillegung, da KWK-Betrieb",1966,in Betrieb,Laufwasser,Nein,,Urspring,10.1,E.ON Kraftwerke GmbH,--
+BNA1192,"Keine Stillegung, da KWK-Betrieb",1971,in Betrieb,Laufwasser,Nein,,Prem,19.2,E.ON Kraftwerke GmbH,--
+BNA1193,Berechneter Zeitpunkt der Stillegung,2002,in Betrieb,Erdgas,ja,,HKW-West,12.8,Stadtwerke Lemgo GmbH,--
+BNA1196a,Berechneter Zeitpunkt der Stillegung,2008,in Betrieb,Erdgas,Ja,,BHKW Ludwigshafen,12.4561730051,MVV Energie AG,--
+BNA1196b,Berechneter Zeitpunkt der Stillegung,2003,in Betrieb,Erdgas,Ja,GuD,Industriekraftwerk Ludwigshafen,11.96,MVV Energie AG,--
+BNA1197,"Keine Stillegung, da KWK-Betrieb",1954,in Betrieb,Abfall,Ja,,FHKW Ludwigshafen,28.7,Technische Werke Ludwigshafen AG,--
+BNA1198,"Keine Stillegung, da KWK-Betrieb",2005,in Betrieb,Abfall,ja,,SITA Abfallverwertung GmbH ,25.378,SITA Abfallverwertung GmbH,--
+BNA1199,"Keine Stillegung, da KWK-Betrieb",2009,in Betrieb,Abfall,Ja,,MHKW Mainz,15.6,Entsorgungsgesellschaft Mainz mbH,--
+BNA1200,Berechneter Zeitpunkt der Stillegung,2005,in Betrieb,Erdgas,Ja,,GuD-Kraftwerk,17.2,Energie- und Medienversorgung Sandhofer Straße GmbH & Co. KG,--
+BNA1209,"Keine Stillegung, da KWK-Betrieb",1922,in Betrieb,Laufwasser,Nein,,Meitingen,11.3,Bayerische Elektrizitätswerke GmbH,--
+BNA1210,"Keine Stillegung, da KWK-Betrieb",1978,in Betrieb,Laufwasser,Nein,,Merching,12.0,E.ON Kraftwerke GmbH,--
+BNA1212,Berechneter Zeitpunkt der Stillegung,1988,in Betrieb,Mineralölprodukte,Nein,,DKW Nord,11.4,Vereinigte Wertach-Elektrizitätswerke GmbH,2033
+BNA1213,"Keine Stillegung, da KWK-Betrieb",1929,in Betrieb,Laufwasser,Nein,,Pfrombach,22.3,E.ON Kraftwerke GmbH,--
+BNA1214,"Keine Stillegung, da KWK-Betrieb",1965,in Betrieb,Laufwasser,Nein,,Müden,16.4,RWE Innogy GmbH,--
+BNA1216,"Keine Stillegung, da KWK-Betrieb",1966,in Betrieb,Laufwasser,Nein,,Neef,16.4,RWE Innogy GmbH,--
+BNA1217,"Keine Stillegung, da KWK-Betrieb",1951,in Betrieb,Laufwasser,Nein,,Niederaichbach,16.2,E.ON Kraftwerke GmbH,--
+BNA1219,"Keine Stillegung, da KWK-Betrieb",1957,in Betrieb,Laufwasser,Nein,,Gummering,14.8,E.ON Kraftwerke GmbH,--
+BNA1220,"Keine Stillegung, da KWK-Betrieb",1924,in Betrieb,Laufwasser,Nein,,Aufkirchen,27.0,E.ON Kraftwerke GmbH,--
+BNA1221,"Keine Stillegung, da KWK-Betrieb",1954,in Betrieb,Laufwasser,Nein,,Oberpeiching,11.9,Rhein-Main-Donau AG,--
+BNA1222,"Keine Stillegung, da KWK-Betrieb",1972,in Betrieb,Abfall,ja,,Müllheizkraftwerk Offenbach,10.4,Energieversorgung Offenbach AG,--
+BNA1225,Berechneter Zeitpunkt der Stillegung,1989,in Betrieb,Erdgas,Ja,,PWG,5.3,Bayerische Elektrizitätswerke GmbH,--
+BNA1226,Berechneter Zeitpunkt der Stillegung,1987,in Betrieb,Erdgas,Ja,,PWG,5.3,Bayerische Elektrizitätswerke GmbH,--
+BNA1227,Berechneter Zeitpunkt der Stillegung,1983,in Betrieb,Mineralölprodukte,Nein,,DKW Leinau,11.4,Vereinigte Wertach-Elektrizitätswerke GmbH,2028
+BNA1228,"Keine Stillegung, da KWK-Betrieb",1984,in Betrieb,Laufwasser,Nein,,Landau,12.6,E.ON Kraftwerke GmbH,--
+BNA1229,"Keine Stillegung, da KWK-Betrieb",1999,in Betrieb,Abfall,Ja,,MHKW Pirmasens,15.0,EEW Energy from Waste Saarbrücken GmbH,--
+BNA1230,"Keine Stillegung, da KWK-Betrieb",1994,in Betrieb,Laufwasser,Nein,,Pielweichs,12.6,E.ON Kraftwerke GmbH,--
+BNA1232,"Keine Stillegung, da KWK-Betrieb",2002,in Betrieb,Abfall,Nein,,ZWSF,2.5,EEW Energy from Waste Premnitz GmbH,--
+BNA1233,"Keine Stillegung, da KWK-Betrieb",2009,in Betrieb,Abfall,Ja,,EVE,14.5,EEW Energy from Waste Premnitz GmbH,--
+BNA1234,"Keine Stillegung, da KWK-Betrieb",1984,in Betrieb,Laufwasser,Nein,,Prittriching,12.1,E.ON Kraftwerke GmbH,--
+BNA1235,"Keine Stillegung, da KWK-Betrieb",1955,in Betrieb,Laufwasser,Nein,,Rain,10.9,Rhein-Main-Donau AG,--
+BNA1238,Berechneter Zeitpunkt der Stillegung,2000,in Betrieb,Erdgas,ja,,Kraftwerk Meggle,12.6,Molkerei MEGGLE Wasserburg GmbH & Co. KG,--
+BNA1239,"Keine Stillegung, da KWK-Betrieb",1967,in Betrieb,Laufwasser,Nein,,Bertoldsheim,18.9,Donau-Wasserkraft AG,--
+BNA1243,"Keine Stillegung, da KWK-Betrieb",2009,in Betrieb,Abfall,Ja,,EBS-HKW Rostock,17.0,Vattenfall Europe New Energy Ecopower GmbH,--
+BNA1244,"Keine Stillegung, da KWK-Betrieb",1997,in Betrieb,Abfall,Nein,,AVA Velsen,16.0,AVA Velsen GmbH,--
+BNA1245,"Keine Stillegung, da KWK-Betrieb",1981,in Betrieb,Laufwasser,Nein,,Schwabstadl,12.0,E.ON Kraftwerke GmbH,--
+BNA1246,"Keine Stillegung, da KWK-Betrieb",1980,in Betrieb,Laufwasser,Nein,,Scheuring,12.2,E.ON Kraftwerke GmbH,--
+BNA1247,"Keine Stillegung, da KWK-Betrieb",1983,in Betrieb,Laufwasser,Nein,,Unterbergen,12.4,E.ON Kraftwerke GmbH,--
+BNA1248,Von der BNetzA Terminiert,1969,in Betrieb,Erdgas,Ja,,UPM Schongau,45.0,UPM GmbH,2015
+BNA1249,,1989,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,UPM Schongau,6.0,UPM GmbH,
+BNA1251,"Keine Stillegung, da KWK-Betrieb",1960,in Betrieb,Laufwasser,Nein,,Dornau,16.6,E.ON Kraftwerke GmbH,--
+BNA1254,"Keine Stillegung, da KWK-Betrieb",1982,in Betrieb,Abfall,Ja,,Müllkraftwerk Schwandorf,54.0,Zweckverband Müllverwertung Schwandorf,--
+BNA1255,"Keine Stillegung, da KWK-Betrieb",2011,in Betrieb,Abfall,Ja,,Kraftwerk Schwedt GmbH & Co.KG,28.9,Kraftwerk Schwedt GmbH & Co. KG,--
+BNA1256,"Keine Stillegung, da KWK-Betrieb",2009,in Betrieb,Biomasse,Ja,,UPM Schwedt,13.3,UPM GmbH Werk Schwedt,--
+BNA1260,Berechneter Zeitpunkt der Stillegung,2013,in Betrieb,Erdgas,Ja,,Heizkraftwerk Sindelfingen,95.0,Daimler AG,--
+BNA1261,"Keine Stillegung, da KWK-Betrieb",1978,in Betrieb,Abfall,Ja,,nan,16.4,EEW Energy from Waste Stapelfeld GmbH,--
+BNA1262,"Keine Stillegung, da KWK-Betrieb",2008,in Betrieb,Abfall,Ja,,"EVZA Energie- und Verwertungszentrale GmbH, Anhalt",24.0,"EVZA Energie- und Verwertungszentrale GmbH, Anhalt",--
+BNA1263,"Keine Stillegung, da KWK-Betrieb",1924,in Betrieb,Laufwasser,Nein,,Mühltal,11.2,E.ON Kraftwerke GmbH,--
+BNA1264,Berechneter Zeitpunkt der Stillegung,1995,in Betrieb,Erdgas,Ja,,HKW Bohrhügel,13.5,Stadtwerke Suhl/Zella-Mehlis GmbH,--
+BNA1265,"Keine Stillegung, da KWK-Betrieb",1923,in Betrieb,Laufwasser,Nein,,Tannheim,12.3,EnBW Energie Baden-Württemberg AG,--
+BNA1267,"Keine Stillegung, da KWK-Betrieb",1951,in Betrieb,Laufwasser,Nein,,Uppenborn 2,18.0,Stadtwerke München GmbH,--
+BNA1269,"Keine Stillegung, da KWK-Betrieb",1961,in Betrieb,Laufwasser,Nein,,Trier,18.8,RWE Innogy GmbH,--
+BNA1271,Berechneter Zeitpunkt der Stillegung,1965,in Betrieb,Erdgas,Ja,,Unterbreizbach,33.6,K+S AG,--
+BNA1273,"Keine Stillegung, da KWK-Betrieb",1955,in Betrieb,Laufwasser,Nein,,Obernach,12.8,E.ON Kraftwerke GmbH,--
+BNA1274,"Keine Stillegung, da KWK-Betrieb",1988,in Betrieb,Laufwasser,Nein,,Ettling,12.6,E.ON Kraftwerke GmbH,--
+BNA1279,Berechneter Zeitpunkt der Stillegung,1995,in Betrieb,Erdgas,Ja,,Gasturbine,51.9,Basell Polyolefine GmbH,--
+BNA1280,Berechneter Zeitpunkt der Stillegung,1962,in Betrieb,Mineralölprodukte,Ja,,Kraftwerk,66.3,Basell Polyolefine GmbH,2007
+BNA1284,Berechneter Zeitpunkt der Stillegung,1991,in Betrieb,Erdgas,Ja,,Co-Generation,11.5,Grace GmbH & Co. KG ,--
+BNA1285,Berechneter Zeitpunkt der Stillegung,1974,in Betrieb,Erdgas,Ja,,Sigmundshall,19.0,K+S AG,--
+BNA1286,"Keine Stillegung, da KWK-Betrieb",2007,in Betrieb,Abfall,Ja,,Restabfallbehandlungsanlage,11.2,Zweckverband für Abfallwirtschaft Südwestthüringen (ZASt),--
+BNA1287,"Keine Stillegung, da KWK-Betrieb",1964,in Betrieb,Laufwasser,Nein,,Zeltingen,13.6,RWE Innogy GmbH,--
+BNA1289,"Keine Stillegung, da KWK-Betrieb",1981,in Betrieb,Abfall,Ja,,AMK - Abfallentsorgungsgesellschaft des Märkischen Kreises mbH,12.61,AMK - Abfallentsorgungsgesellschaft des Märkischen Kreises mbH,--
+BNA1291,"Keine Stillegung, da KWK-Betrieb",2009,in Betrieb,Abfall,Ja,,IHKW Andernach,12.5,IHKW Industrieheizkraftwerk Andernach GmbH,--
+BNA1292a,Berechneter Zeitpunkt der Stillegung,1983,in Betrieb,Erdgas,Ja,,IHKW Heidenheim,11.1,Voith Dienstleistungen und Grundstücks GmbH & Co. KG,--
+BNA1292b,Berechneter Zeitpunkt der Stillegung,2000,in Betrieb,Erdgas,Ja,,IHKW Heidenheim,15.4,Voith Dienstleistungen und Grundstücks GmbH & Co. KG,--
+BNA1293a,Berechneter Zeitpunkt der Stillegung,1995,vorläufig stillgelegt,Braunkohle,ja,,Kraftwerk,10.0,Martinswerk GmbH,2040
+BNA1293b,Berechneter Zeitpunkt der Stillegung,1995,in Betrieb,Braunkohle,Ja,,Kraftwerk,10.0,Martinswerk GmbH,2040
+BNA1293c,Berechneter Zeitpunkt der Stillegung,1995,vorläufig stillgelegt,Erdgas,Ja,,Kraftwerk,3.0,Martinswerk GmbH,--
+BNA1293d,Berechneter Zeitpunkt der Stillegung,1995,vorläufig stillgelegt,Mineralölprodukte,Nein,,Kraftwerk,0.76,Martinswerk GmbH,2040
+BNA1294,Berechneter Zeitpunkt der Stillegung,1993,in Betrieb,Mineralölprodukte,Ja,,EEV,38.0,Shell Deutschland Oil GmbH,2038
+BNA1295,"Keine Stillegung, da KWK-Betrieb",1993,in Betrieb,Abfall,ja,,AVA GmbH,10.0,AVA Abfallverwertung Augsburg GmbH,--
+BNA1315,Berechneter Zeitpunkt der Stillegung,2001,in Betrieb,Erdgas,Ja,,HKW,25.0,Universitätsklinikum Freiburg AdöR,--
+BNA1316,"Keine Stillegung, da KWK-Betrieb",1976,in Betrieb,Abfall,Ja,,Müllheizkraftwerk,30.0,AWG Abfallwirtschaftsgesellschaft mbH Wuppertal,--
+BNA1327a,Berechneter Zeitpunkt der Stillegung,1992,in Betrieb,Erdgas,Ja,,Energiezentrale 1992,11.06,Flughafen München GmbH,--
+BNA1327b,Berechneter Zeitpunkt der Stillegung,2003,in Betrieb,Erdgas,Ja,,Erweiterung Energiezentrale 2003,7.44,Flughafen München GmbH,--
+BNA1328,Berechneter Zeitpunkt der Stillegung,2001,in Betrieb,Erdgas,Ja,,HBB,24.0,HBB Heizkraftwerk Bauernfeind Betreibergesellschaft mbh,--
+BNA1329,Berechneter Zeitpunkt der Stillegung,1993,in Betrieb,Erdgas,Ja,,K&N PFK AG EV,12.75,Kübler & Niethammer Papierfabrik Kriebstein AG,--
+BNA1330,,2010,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,Steinbeis Energie,17.0,Steinbeis Energie GmbH,
+BNA1332,Berechneter Zeitpunkt der Stillegung,1995,in Betrieb,Erdgas,Ja,,Sasol Kraftwerk,22.3,Sasol Solvents Germany GmbH,--
+BNA1333a,Berechneter Zeitpunkt der Stillegung,1988,in Betrieb,Erdgas,Ja,,HKW Pfaffenwald,12.2,Universität Stuttgart,--
+BNA1333b,Berechneter Zeitpunkt der Stillegung,1969,in Betrieb,Erdgas,Ja,,HKW Pfaffenwald,11.3,Universität Stuttgart,--
+BNA1333c,Berechneter Zeitpunkt der Stillegung,1968,in Betrieb,Erdgas,Ja,,HKW Pfaffenwald,11.6,Universität Stuttgart,--
+BNA1334,Berechneter Zeitpunkt der Stillegung,2002,in Betrieb,Erdgas,Ja,,KWK-Anlage,14.8,CR3-Kaffeeveredelung M. Hermsen GmbH,--
+BNA1335a,Berechneter Zeitpunkt der Stillegung,1989,in Betrieb,Erdgas,Ja,,PKV Kraftwerk,58.1,Papier- u. Kartonfabrik Varel GmbH & Co. KG,--
+BNA1335b,Berechneter Zeitpunkt der Stillegung,1968,in Betrieb,Erdgas,Ja,,PKV Kraftwerk,0.48,Papier- u. Kartonfabrik Varel GmbH & Co. KG,--
+BNA1336,Berechneter Zeitpunkt der Stillegung,1948,in Betrieb,Erdgas,Ja,,Holthausen,84.0,Henkel AG & Co.KGaA,--
+BNA1337d,Berechneter Zeitpunkt der Stillegung,1991,in Betrieb,Mineralölprodukte,nan,,Notstromdiesel,0.52,DS Smith Paper Deutschland GmbH,2036
+BNA1337e,Berechneter Zeitpunkt der Stillegung,2013,in Betrieb,Erdgas,Ja,GuD,GuD-Anlage,47.0,DS Smith Paper Deutschland GmbH,--
+BNA1338,Von der BNetzA Terminiert,1978,in Betrieb,Mineralölprodukte,Ja,,Spitzenkraftwerk,19.0,Eurowatt Spitzenkraft GmbH,2015
+BNA1396,Berechneter Zeitpunkt der Stillegung,1998,in Betrieb,Erdgas,Ja,,EVC / GLOBALFOUNDRIES,34.3,Energieversorgungscenter Dresden-Wilschdorf GmbH & Co. KG,--
+BNA1397a,,1963,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,O10,12.4,Ineos Manufacturing Deutschland GmbH,
+BNA1397b,,1963,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,O10,15.0,Ineos Manufacturing Deutschland GmbH,
+BNA1397c,,1963,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,O10,12.4,Ineos Manufacturing Deutschland GmbH,
+BNA1397d,,1966,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Nein,,O10,10.0,Ineos Manufacturing Deutschland GmbH,
+BNA1397e,,1967,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,O10,30.0,Ineos Manufacturing Deutschland GmbH,
+BNA1399,,1929,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,Oxea GmbH,38.0,Oxea GmbH,
+BNA1400a,Berechneter Zeitpunkt der Stillegung,1993,in Betrieb,Braunkohle,Ja,,EZ1,18.5,"Südzucker AG Mannheim/Ochsenfurt, Werk Zeitz",2038
+BNA1400b,Berechneter Zeitpunkt der Stillegung,1993,in Betrieb,Mineralölprodukte,Ja,,EZ1,18.5,"Südzucker AG Mannheim/Ochsenfurt, Werk Zeitz",2038
+BNA1403,Berechneter Zeitpunkt der Stillegung,1995,in Betrieb,Erdgas,Ja,,Steinitz,11.35,GDF SUEZ E&P DEUTSCHLAND GMBH,--
+BNA1404,Berechneter Zeitpunkt der Stillegung,2012,in Betrieb,Braunkohle,Nein,,Boxberg,640.0,Vattenfall Europe Generation AG,2057
+BNA1405a,Berechneter Zeitpunkt der Stillegung,1978,in Betrieb,Steinkohle,Ja,,Heizkraftwerk Magirusstraße,20.7,Fernwärme Ulm GmbH,2023
+BNA1406,Berechneter Zeitpunkt der Stillegung,1992,in Betrieb,Erdgas,Ja,,FS-Karton,18.879,FS-Karton GmbH,--
+BNA1407,Berechneter Zeitpunkt der Stillegung,2007,in Betrieb,Erdgas,Ja,,STW,13.5,Schoeller Technocell GmbH & Co. KG,--
+BNA1408,Berechneter Zeitpunkt der Stillegung,1980,in Betrieb,Erdgas,Ja,,Heizkraftwerk Evonik Rheinfelden,16.0,Evonik Degussa GmbH,--
+BNA1409,,2010,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,DK Kraftwerk,21.0,DK Recycling und Roheisen GmbH,
+BNA1437,Berechneter Zeitpunkt der Stillegung,2012,in Betrieb,Erdgas,Ja,,KWK AOS GmbH,30.72,Aluminium Oxid Stade GmbH,--
+BNA1447a,"Keine Stillegung, da KWK-Betrieb",1990,in Betrieb,Abfall,Ja,,nan,11.9,Evonik Industries AG (Werk Worms),--
+BNA1447b,"Keine Stillegung, da KWK-Betrieb",2011,in Betrieb,Abfall,Nein,,nan,6.9,Evonik Industries AG (Werk Worms),--
+BNA1448,"Keine Stillegung, da KWK-Betrieb",1999,in Betrieb,Abfall,Ja,,AHKW Neunkirchen,11.6,EEW Energy from Waste Saarbrücken GmbH,--
+BNA1449a,"Keine Stillegung, da KWK-Betrieb",1984,in Betrieb,Abfall,Ja,,Turbosatz 1,8.7,Zweckverband Abfallwirtschaft Raum Würzburg,--
+BNA1449b,"Keine Stillegung, da KWK-Betrieb",1998,in Betrieb,Abfall,nan,,Turbosatz 2,12.0,Zweckverband Abfallwirtschaft Raum Würzburg,--
+BNA1450,Berechneter Zeitpunkt der Stillegung,2000,in Betrieb,Erdgas,Ja,,GUD-Anlage DREWSEN,13.0,DREWSEN SPEZIALPAPIERE GmbH & Co.KG,--
+BNA1451,Berechneter Zeitpunkt der Stillegung,1962,in Betrieb,Braunkohle,Ja,,HKW Sachtleben,27.5,Sachtleben Chemie GmbH,2007
+BNA1458,Berechneter Zeitpunkt der Stillegung,1975,in Betrieb,Erdgas,Ja,,nan,27.95,Buchmann GmbH,--
+BNA1461,Berechneter Zeitpunkt der Stillegung,2005,in Betrieb,Braunkohle,Ja,,nan,17.5,CropEnergies Bioethanol GmbH Zeitz,2050
+BNA1463,Berechneter Zeitpunkt der Stillegung,1978,in Betrieb,Erdgas,Ja,,nan,19.49,Smurfit Kappa Herzberger Papierfabrik GmbH,--
+BNA1465a,,2009,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,EBS-Kraftwerk Witzenhausen,28.0,B+T Energie GmbH,
+BNA1465b,Berechneter Zeitpunkt der Stillegung,1975,in Betrieb,Erdgas,Ja,,Gaskraftwerk,13.2,DS Smith Paper Deutschland GmbH,--
+BNA1466,"Keine Stillegung, da KWK-Betrieb",1920,in Betrieb,Laufwasser,Nein,,Kraftwerk 3,18.5,Alzkraftwerke Heider GmbH,--
+BNA1467,Berechneter Zeitpunkt der Stillegung,1986,in Betrieb,Steinkohle,Ja,,nan,18.5,Koehler Energie GmbH,2031
+BNA1486,Berechneter Zeitpunkt der Stillegung,1979,in Betrieb,Braunkohle,Ja,,Grubenheizkraftwerk,49.0,ROMONTA GmbH,2024
+BNA1492b,Berechneter Zeitpunkt der Stillegung,2012,in Betrieb,Erdgas,Ja,,Kraftwerk 2,8.0,Papierfabrik Adolf Jass Schwarza GmbH,--
+BNA1498,Berechneter Zeitpunkt der Stillegung,1953,Sonderfall,Erdgas,Ja,,Werk Nordstemmen,30.6,"Nordzucker AG, Werk Nordstemmen",--
+BNA1499,Berechneter Zeitpunkt der Stillegung,2000,Sonderfall,Erdgas,Ja,,Werk Clauen,15.8,"Nordzucker AG, Werk Clauen",--
+BNA1500,Berechneter Zeitpunkt der Stillegung,1990,Sonderfall,Steinkohle,Ja,,Werk Uelzen,40.0,"Nordzucker AG, Werk Uelzen",2035
+BNA1502,Berechneter Zeitpunkt der Stillegung,2013,in Betrieb,Erdgas,Ja,,Heizkraftwerk Krefeld,12.6,SWK ENERGIE GmbH,--
+BNA1503,Berechneter Zeitpunkt der Stillegung,2012,in Betrieb,Erdgas,Ja,,BHKW H.120,16.9,Daimler AG,--
+BNA1504,Berechneter Zeitpunkt der Stillegung,2013,in Betrieb,Erdgas,Ja,,BHKW,13.0,Daimler AG,--
+BNA1505,Berechneter Zeitpunkt der Stillegung,1993,in Betrieb,Erdgas,Ja,,HKW Wiesengrund,22.1,ENAG/Maingas Energieanlagen GmbH,--
+BNA1506,Berechneter Zeitpunkt der Stillegung,1994,Sonderfall,Erdgas,Ja,,Werk Klein Wanzleben,23.4,"Nordzucker AG, Werk Klein Wanzleben",--
+BNA1507,Berechneter Zeitpunkt der Stillegung,2006,in Betrieb,Erdgas,Ja,,nan,10.7,"Michelin Reifenwerke AG & Co. KGaA 
+Standort Bad Kreuznach",--
+BNA1508,Berechneter Zeitpunkt der Stillegung,2013,in Betrieb,Steinkohle,Ja,,Trianel Kohlekraftwerk Lünen,746.0,Trianel Kohlekraftwerk Lünen GmbH & Co. KG,2058
+BNA1509,Berechneter Zeitpunkt der Stillegung,1996,in Betrieb,Erdgas,Ja,,BP Werk Lingen,66.0,BP Europa SE,--
+BNA1510,"Keine Stillegung, da KWK-Betrieb",2013,in Betrieb,Abfall,Ja,,Hamburger Rieger,18.7,Spreestromerzeugungs GmbH,--
+BNA1511a,Berechneter Zeitpunkt der Stillegung,1983,in Betrieb,Braunkohle,Ja,,Kessel 4,9.3,"Papierfabrik Schoellershammer 
+Heinrich August Schoeller Söhne GmbH & Co. KG",2028
+BNA1511b,Berechneter Zeitpunkt der Stillegung,1967,in Betrieb,Erdgas,Ja,,Kessel 2,2.9,"Papierfabrik Schoellershammer 
+Heinrich August Schoeller Söhne GmbH & Co. KG",--
+BNA1516,Berechneter Zeitpunkt der Stillegung,1992,in Betrieb,Erdgas,Ja,,HKW 1 Werk Offstein,30.0,Südzucker AG Mannheim/Ochsenfurt,--
+BNA1520,"Keine Stillegung, da KWK-Betrieb",2014,in Betrieb,Biomasse,Ja,,Biomasseheizkraftwerk Wiesbaden,10.5,ESWE BioEnergie GmH,--
+BNA1523a,Berechneter Zeitpunkt der Stillegung,1992,in Betrieb,Erdgas,Ja,,Gemeinschaftskraftwerk Weig,42.0,Moritz J. Weig GmbH & Co KG,--
+BNA1523b,Berechneter Zeitpunkt der Stillegung,2013,in Betrieb,Erdgas,Ja,,Gemeinschaftskraftwerk Weig,,Moritz J. Weig GmbH & Co KG,--
+BNA1523c,,1992,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,Gemeinschaftskraftwerk Weig,,Moritz J. Weig GmbH & Co KG,
+BNA1523d,Berechneter Zeitpunkt der Stillegung,1971,vorläufig stillgelegt,Erdgas,Ja,,Gemeinschaftskraftwerk Weig,,Moritz J. Weig GmbH & Co KG,--
+BNA1524,Berechneter Zeitpunkt der Stillegung,1912,in Betrieb,Erdgas,Ja,,Heizkraftwerk Bomlitz,22.1,Dow Wolff Cellulosics GmbH,--
+BNA1526,Berechneter Zeitpunkt der Stillegung,1962,in Betrieb,Mineralölprodukte,Ja,,Kraftwerk Raffinerie Heide,44.5,Raffinerie Heide GmbH,2007
+BNA1528,Berechneter Zeitpunkt der Stillegung,1990,in Betrieb,Erdgas,Ja,,nan,13.2,Stadtwerke Kempen GmbH,--
+BNA1531,Berechneter Zeitpunkt der Stillegung,2014,in Betrieb,Erdgas,Ja,,Industriekraftwerk Greifswald,37.7,Industriekraftwerk Greifswald GmbH,--
+BNA1541,Berechneter Zeitpunkt der Stillegung,2013,in Betrieb,Erdgas,Ja,,HKW Freiberg,13.383,Freiberger Erdgas GmbH,--
+BNA1553,,1964,in Betrieb,"Sonstige Energieträger
+(nicht erneuerbar) ",Ja,,nan,23.3,Gunvor Raffinerie Ingolstadt GmbH,
+BNA1556,Berechneter Zeitpunkt der Stillegung,2014,in Betrieb,Erdgas,Ja,,nan,35.5,Sachsenmilch Leppersdorf GmbH,--
+BNA0011,Berechneter Zeitpunkt der Stillegung,2009,Endgültig Stillgelegt 2012,Steinkohle,Ja,,Papierfabrik Albbruck,28.0,Papierfabrik Albbruck GmbH,2054
+BNA0059a,Berechneter Zeitpunkt der Stillegung,1961,Endgültig Stillgelegt 2013,Erdgas,Ja,,HKW Kassel,12.2,Volkswagen AG,--
+BNA0118,Berechneter Zeitpunkt der Stillegung,1969,Endgültig Stillgelegt 2012,Erdgas,Ja,,Heizkraftwerk Süd,14.4,Energie- und Wasserversorgung Bonn/Rhein-Sieg GmbH,--
+BNA0143,,1974,Endgültig Stillgelegt 2013,"Sonstige Energieträger
+(nicht erneuerbar) ",Nein,,KW Mittelsbüren,110.0,swb Erzeugung GmbH & Co. KG,
+BNA0187,Berechneter Zeitpunkt der Stillegung,1964,Endgültig Stillgelegt 2013,Steinkohle,Ja,,Datteln,95.0,E.ON Kraftwerke GmbH,2009
+BNA0188,Berechneter Zeitpunkt der Stillegung,1964,Endgültig Stillgelegt 2013,Steinkohle,Ja,,Datteln,95.0,E.ON Kraftwerke GmbH,2009
+BNA0189,Berechneter Zeitpunkt der Stillegung,1969,Endgültig Stillgelegt 2013,Steinkohle,Nein,,Datteln,113.0,E.ON Kraftwerke GmbH,2014
+BNA0212,Berechneter Zeitpunkt der Stillegung,1965,Endgültig Stillgelegt 2012,Steinkohle,Ja,,HKW II/B,133.0,Stadtwerke Duisburg AG,2010
+BNA0215,Berechneter Zeitpunkt der Stillegung,1959,Endgültig Stillgelegt 2014,Steinkohle,Nein,,KW Walsum,129.0,Steag GmbH,2004
+BNA0269,Berechneter Zeitpunkt der Stillegung,1974,Endgültig Stillgelegt 2012,Mineralölprodukte,Ja,,HKW Flensburg,30.0,Stadtwerke Flensburg GmbH,2019
+BNA0302,Berechneter Zeitpunkt der Stillegung,1957,Endgültig Stillgelegt 2011,Braunkohle,Nein,,Frimmersdorf,129.0,RWE Power AG,2002
+BNA0303,Berechneter Zeitpunkt der Stillegung,1957,Endgültig Stillgelegt 2011,Braunkohle,Nein,,Frimmersdorf,130.0,RWE Power AG,2002
+BNA0304,Berechneter Zeitpunkt der Stillegung,1960,Endgültig Stillgelegt 2011,Braunkohle,Nein,,Frimmersdorf,124.0,RWE Power AG,2005
+BNA0305,Berechneter Zeitpunkt der Stillegung,1959,Endgültig Stillgelegt 2012,Braunkohle,Nein,,Frimmersdorf,130.0,RWE Power AG,2004
+BNA0306,Berechneter Zeitpunkt der Stillegung,1960,Endgültig Stillgelegt 2012,Braunkohle,Nein,,Frimmersdorf,132.0,RWE Power AG,2005
+BNA0307,Berechneter Zeitpunkt der Stillegung,1960,Endgültig Stillgelegt 2012,Braunkohle,Nein,,Frimmersdorf,128.0,RWE Power AG,2005
+BNA0308,Berechneter Zeitpunkt der Stillegung,1962,Endgültig Stillgelegt 2012,Braunkohle,Nein,,Frimmersdorf,136.0,RWE Power AG,2007
+BNA0309,Berechneter Zeitpunkt der Stillegung,1964,Endgültig Stillgelegt 2012,Braunkohle,Nein,,Frimmersdorf,135.0,RWE Power AG,2009
+BNA0310,Berechneter Zeitpunkt der Stillegung,1962,Endgültig Stillgelegt 2012,Braunkohle,Nein,,Frimmersdorf,138.0,RWE Power AG,2007
+BNA0311,Berechneter Zeitpunkt der Stillegung,1962,Endgültig Stillgelegt 2012,Braunkohle,Nein,,Frimmersdorf,131.0,RWE Power AG,2007
+BNA0312,Berechneter Zeitpunkt der Stillegung,1964,Endgültig Stillgelegt 2012,Braunkohle,Nein,,Frimmersdorf,133.0,RWE Power AG,2009
+BNA0375,Berechneter Zeitpunkt der Stillegung,1965,Endgültig Stillgelegt 2013,Steinkohle,Ja,,Staudinger,249.0,E.ON Kraftwerke GmbH,2010
+BNA0376,Berechneter Zeitpunkt der Stillegung,1970,Endgültig Stillgelegt 2012,Steinkohle,Nein,,Staudinger,293.0,E.ON Kraftwerke GmbH,2015
+BNA0414,Berechneter Zeitpunkt der Stillegung,1963,Endgültig Stillgelegt 2011,Steinkohle,Nein,,Westfalen,152.0,RWE Generation SE,2008
+BNA0415,Berechneter Zeitpunkt der Stillegung,1963,Endgültig Stillgelegt 2011,Steinkohle,Nein,,Westfalen,152.0,RWE Generation SE,2008
+BNA0447,Berechneter Zeitpunkt der Stillegung,1963,Endgültig Stillgelegt 2014,Steinkohle,Nein,,KW Herne,133.0,Steag GmbH,2008
+BNA0448,Berechneter Zeitpunkt der Stillegung,1957,Endgültig Stillgelegt 2013,Steinkohle,Ja,,Shamrock,132.0,E.ON Kraftwerke GmbH,2002
+BNA0638,"Keine Stillegung, da KWK-Betrieb",1966,Endgültig Stillgelegt 2013,Abfall,nein,,HKW Mannheim,2.78,MVV Energie AG,--
+BNA0639,"Keine Stillegung, da KWK-Betrieb",1977,Endgültig Stillgelegt 2012,Abfall,Ja,,HKW Mannheim,5.56,MVV Energie AG,--
+BNA0680,Berechneter Zeitpunkt der Stillegung,1968,Endgültig Stillgelegt 2013,Braunkohle,Ja,,Mumsdorf,60.0,Mitteldeutsche Braunkohlengesellschaft mbH,2013
+BNA0812,Berechneter Zeitpunkt der Stillegung,1965,Endgültig Stillgelegt 2012,Steinkohle,Nein,,Kraftwerk Veltheim,93.0,Gemeinschaftskraftwerk Veltheim GmbH,2010
+BNA0913,Berechneter Zeitpunkt der Stillegung,2009,Endgültig Stillgelegt 2012,Erdgas,Nein,GuD,GuD Anlage Spreetal,50.0,Alpiq Spreetal GmbH,2049
+BNA0933,Berechneter Zeitpunkt der Stillegung,1973,Endgültig Stillgelegt 2014,Erdgas,Nein,,Heizkraftwerk Stuttgart-Gaisburg,55.0,EnBW Energie Baden-Württemberg AG,2013
+BNA1021,Berechneter Zeitpunkt der Stillegung,1955,Endgültig Stillgelegt 2012,Braunkohle,Ja,,Weisweiler,123.0,RWE Power AG,2000
+BNA1022,Berechneter Zeitpunkt der Stillegung,1959,Endgültig Stillgelegt 2012,Braunkohle,Nein,,Weisweiler,135.0,RWE Power AG,2004
+BNA1035,Berechneter Zeitpunkt der Stillegung,1971,Endgültig Stillgelegt 2014,Steinkohle,nan,,Kraftwerk Werdohl-Elverlingsen,186.0,Mark-E AG,2016
+BNA1275,Berechneter Zeitpunkt der Stillegung,2005,Endgültig Stillgelegt 2013,Erdgas,Ja,,Kraftwerk Freudenberg Weinheim,21.0,Freudenberg Service KG,--
+BNA1276,Berechneter Zeitpunkt der Stillegung,1982,Endgültig Stillgelegt 2013,Erdgas,Ja,,Kraftwerk Freudenberg Weinheim,21.0,Freudenberg Service KG,--
+BNA1337a,Berechneter Zeitpunkt der Stillegung,nan,Endgültig Stillgelegt 2012,Erdgas,ja,,Heizkraftwerk,27.0,DS Smith Paper Deutschland GmbH,--
+BNAP002,Berechneter Zeitpunkt der Stillegung,2014,In Bau,Erdgas,Ja,,UPM Schongau,70.0,,--
+BNAP044,Berechneter Zeitpunkt der Stillegung,2016,In Planung,Erdgas,Ja,,Energiezentrale 20,17.2,,--
+BNAP050a,Berechneter Zeitpunkt der Stillegung,2017,In Planung,Erdgas,Nein,,CCPP Haiming,423.0,,2057
+BNAP050b,Berechneter Zeitpunkt der Stillegung,2017,In Planung,Erdgas,Nein,,CCPP Haiming,423.0,,2057
+BNAP073,Berechneter Zeitpunkt der Stillegung,2020,In Planung,Erdgas,Ja,,Energiezentrale 20,100.0,,--
+BNAP114,,2025,In Planung,Erdgas,nan,,KW Leipheim,600.0,,
+BNAP127,Berechneter Zeitpunkt der Stillegung,2030,In Planung,Erdgas,Nein,,KW Schweinfurt,1000.0,,2070
+BNAP123,,2016,In Planung,Erdgas,nan,,Kraftwerk Karlstein,300.0,,
+BNAP124,,2018,In Planung,Erdgas,nan,,Kraftwerk Gundremmingen GuD,500.0,,
+BNAP043,Berechneter Zeitpunkt der Stillegung,2016,In Bau,Erdgas,Ja,,Lichterfelde,300.0,,--
+BNAP066,Berechneter Zeitpunkt der Stillegung,2019,In Planung,Erdgas,Ja,,Blockdammweg,300.0,,--
+BNAP102,Berechneter Zeitpunkt der Stillegung,2018,In Planung,Erdgas,Nein,,"GuD-KW Havelland,",457.0,,2058
+BNAP001,Berechneter Zeitpunkt der Stillegung,2014,In Bau,Erdgas,Nein,,KW Mittelsbüren,445.0,,2054
+BNAP023,Berechneter Zeitpunkt der Stillegung,2015,In Bau,Erdgas,Ja,,Lausward,595.0,,--
+BNAP028,Berechneter Zeitpunkt der Stillegung,2016,In Bau,Erdgas,Ja,,Niehl IIIa,446.0,,--
+BNAP041,Berechneter Zeitpunkt der Stillegung,2016,In Planung,Erdgas,Ja,,GuD Leverkusen,573.0,,--
+BNAP051,Berechneter Zeitpunkt der Stillegung,2017,In Planung,Erdgas,Nein,,Bocholt Power,425.0,,2057
+BNAP065,Berechneter Zeitpunkt der Stillegung,2019,In Planung,Erdgas,Ja,,Trianel Kraftwerk Krefeld,1160.0,,--
+BNAP072,Berechneter Zeitpunkt der Stillegung,2020,In Planung,Erdgas,Ja,,Niehl IIIb,754.0,,--
+BNAP125,,2030,In Planung,Erdgas,nan,,GuD-KW Herne,800.0,,
+BNAP105,,2015,In Bau,Erdgas,nan,,Kraftwerk IV,60.0,,
+BNAP033,Berechneter Zeitpunkt der Stillegung,2019,In Planung,Erdgas,Nein,,KW Weiher,400.0,,2059
+BNAP100,Berechneter Zeitpunkt der Stillegung,2020,In Planung,Erdgas,Ja,,Kraftwerk Ensdorf,280.0,,--
+BNAP061,Berechneter Zeitpunkt der Stillegung,2018,In Planung,Erdgas,Ja,,Stadtwerke Leipzig,20.0,,--
+BNAP070,"Keine Stillegung, da KWK-Betrieb",2019,In Planung,Pumpspeicher,Nein,,PSW Blautal,60.0,,--
+BNAP075,"Keine Stillegung, da KWK-Betrieb",2020,In Planung,Pumpspeicher,Nein,,Pumpspeicherwerk,150.0,,--
+BNAP090,"Keine Stillegung, da KWK-Betrieb",2025,In Planung,Pumpspeicher,Nein,,Pumpspeicherwerk,700.0,,--
+BNAP098a,"Keine Stillegung, da KWK-Betrieb",2022,In Planung,Pumpspeicher,Nein,,Jochenstein,150.0,,--
+BNAP098b,"Keine Stillegung, da KWK-Betrieb",2022,In Planung,Pumpspeicher,Nein,,Jochenstein,150.0,,--
+BNAP082,"Keine Stillegung, da KWK-Betrieb",2022,In Planung,Pumpspeicher,Nein,,PSW Leinetal,55.0,,--
+BNAP083,"Keine Stillegung, da KWK-Betrieb",2022,In Planung,Pumpspeicher,Nein,,PSW Leinetal,55.0,,--
+BNAP084,"Keine Stillegung, da KWK-Betrieb",2022,In Planung,Pumpspeicher,Nein,,PSW Leinetal,55.0,,--
+BNAP085,"Keine Stillegung, da KWK-Betrieb",2022,In Planung,Pumpspeicher,Nein,,PSW Leinetal,55.0,,--
+BNAP079a,"Keine Stillegung, da KWK-Betrieb",2022,In Planung,Pumpspeicher,Nein,,PSW Lippe,80.0,,--
+BNAP079b,"Keine Stillegung, da KWK-Betrieb",2022,In Planung,Pumpspeicher,Nein,,PSW Lippe,80.0,,--
+BNAP079c,"Keine Stillegung, da KWK-Betrieb",2022,In Planung,Pumpspeicher,Nein,,PSW Lippe,80.0,,--
+BNAP079d,"Keine Stillegung, da KWK-Betrieb",2022,In Planung,Pumpspeicher,Nein,,PSW Lippe,80.0,,--
+BNAP086,"Keine Stillegung, da KWK-Betrieb",2023,In Planung,Pumpspeicher,Nein,,Trianel Wasserspeicher Kraftwerk,390.0,,--
+BNAP074,"Keine Stillegung, da KWK-Betrieb",2020,In Planung,Pumpspeicher,Nein,,PSKW RIO,300.0,,--
+BNAP052,Berechneter Zeitpunkt der Stillegung,2017,In Planung,Erdgas,Ja,,GuD Industriepark,130.0,,--
+BNAP006,Berechneter Zeitpunkt der Stillegung,2014,In Bau,Erdgas,Ja,,HKW Humboldtstr.,10.0,,--
+BNAP024,Berechneter Zeitpunkt der Stillegung,2015,In Bau,Erdgas,Ja,,Heizkraftwerk Flensburg,73.0,,--
+BNAP042,Berechneter Zeitpunkt der Stillegung,2016,In Planung,Erdgas,Ja,,Gas-HKW Phase 1;,200.0,,--
+BNAP060,Berechneter Zeitpunkt der Stillegung,2018,In Planung,Erdgas,Ja,,Wedel,280.0,,--
+BNAP078,Berechneter Zeitpunkt der Stillegung,2023,In Planung,Erdgas,Ja,,Gas-HKW Phase 2;,90.0,,--
+BNAP101,Berechneter Zeitpunkt der Stillegung,2016,In Planung,Erdgas,Ja,,Gasmotorenheizkraftwerk,200.0,,--
+BNAP068,"Keine Stillegung, da KWK-Betrieb",2019,In Planung,Pumpspeicher,Nein,,"Rudolf-Fettweis-Werk ""Oberstufe",220.0,,--
+BNAP069,"Keine Stillegung, da KWK-Betrieb",2019,In Planung,Pumpspeicher,Nein,,"Rudolf-Fettweis-Werk ""Oberstufe",50.0,,--
+BNAP080,"Keine Stillegung, da KWK-Betrieb",2022,In Planung,Pumpspeicher,Nein,,PSW Zollernalb,320.0,,--
+BNAP094a,"Keine Stillegung, da KWK-Betrieb",2030,In Planung,Pumpspeicher,Nein,,Atdorf,700.0,,--
+BNAP094b,"Keine Stillegung, da KWK-Betrieb",2030,In Planung,Pumpspeicher,Nein,,Atdorf,700.0,,--
+BNAP012,Berechneter Zeitpunkt der Stillegung,2014,In Bau,Steinkohle,Nein,,Moorburg,830.0,,2059
+BNAP013,Berechneter Zeitpunkt der Stillegung,2014,In Bau,Steinkohle,Nein,,Moorburg,830.0,,2059
+BNAP014,Berechneter Zeitpunkt der Stillegung,2014,In Bau,Steinkohle,Nein,,Wilhelmshaven,731.0,,2059
+BNAP029,Berechneter Zeitpunkt der Stillegung,2025,In Bau,Steinkohle,Ja,,Datteln,1055.0,,2070
+BNAP046,Berechneter Zeitpunkt der Stillegung,2019,In Planung,Steinkohle,Ja,,KW Herne,735.0,,2064
+BNAP062,Berechneter Zeitpunkt der Stillegung,2018,In Planung,Steinkohle,Ja,,KW Lünen,735.0,,2063
+BNAP081,"Keine Stillegung, da KWK-Betrieb",2022,In Planung,Pumpspeicher,Nein,,PSW Hainleite,250.0,,--
+BNAP089a,"Keine Stillegung, da KWK-Betrieb",2024,In Planung,Pumpspeicher,Nein,,Trianel Wasserspeicher Kraftwerk,265.0,,--
+BNAP089b,"Keine Stillegung, da KWK-Betrieb",2024,In Planung,Pumpspeicher,Nein,,Trianel Wasserspeicher Kraftwerk,265.0,,--
+BNAP089c,"Keine Stillegung, da KWK-Betrieb",2024,In Planung,Pumpspeicher,Nein,,Trianel Wasserspeicher Kraftwerk,265.0,,--
+BNAP089d,"Keine Stillegung, da KWK-Betrieb",2024,In Planung,Pumpspeicher,Nein,,Trianel Wasserspeicher Kraftwerk,265.0,,--
+BNAP099a,"Keine Stillegung, da KWK-Betrieb",2022,In Planung,Pumpspeicher,Nein,,PSW Leutenberg,201.0,,--
+BNAP099b,"Keine Stillegung, da KWK-Betrieb",2022,In Planung,Pumpspeicher,Nein,,PSW Leutenberg,201.0,,--
+BNAP025,Berechneter Zeitpunkt der Stillegung,2015,In Bau,Erdgas,Ja,,HKW,7.5,,--
+BNAP053,Berechneter Zeitpunkt der Stillegung,2017,In Planung,Erdgas,Ja,,Gasmotorenheizkraftwerk,50.0,,--
+BNAP092a,Berechneter Zeitpunkt der Stillegung,2030,In Planung,Erdgas,Nein,,Rheinhafendampfkraftwerk,233.0,,2070
+BNAP092b,Berechneter Zeitpunkt der Stillegung,2030,In Planung,Erdgas,Nein,,Rheinhafendampfkraftwerk,233.0,,2070
+BNAP026,Berechneter Zeitpunkt der Stillegung,2015,In Bau,Steinkohle,Ja,,GKM,843.0,,2060
+BNAP122,,2016,In Planung,Erdgas,nan,,Kraftwerk Biblis GuD,300.0,,
+BNAP005,Berechneter Zeitpunkt der Stillegung,2014,In Bau,Erdgas,Ja,,BHKW Braunschweig,10.2,,--
+BNAP097,Berechneter Zeitpunkt der Stillegung,2030,In Planung,Erdgas,Ja,,GuD Oberrhein,1200.0,,--
+BNAP007,Berechneter Zeitpunkt der Stillegung,2014,In Bau,Erdgas,Ja,,HKW Hiltrop,10.0,,--

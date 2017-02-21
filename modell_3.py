@@ -2,16 +2,16 @@
 """
 Created on Thu Apr  2 13:01:30 2015
 
-@author: felixstoeckmann
+@author: felix
 """
 import numpy as np
 import pandas as pd
 import datetime as dt
 import pytz
 import os
-import Modell_Slave_3 as ModS
+import modell_slave_3 as mod_s
 
-path = '/Volumes/Macintosh_HD/Users/felixstoeckmann/Cloudstation/Modell/'
+path = os.path.dirname(os.path.realpath(__file__))
 
 Emis   = {'Erdgas':0.202,'Steinkohle':0.339,'Braunkohle':0.404,'Minaraloel':0.280, 
           'Import':0.4718}
@@ -29,7 +29,7 @@ Fuktionen noch weitere Dateispezifische Prozesse vollzogen.
 ###############################################################################
 
 
-def Load_func(Master,kon):
+def load_func(Master,kon):
     for L in Master.index:
         if Master.at[L,'Load'] == 'N/A':
             Master.at[L,'Load'] = np.nan
@@ -85,15 +85,15 @@ def Load_func(Master,kon):
 
 
 
-def Verteilung(MO_Year,AvYear,date):
+def verteilung(MO_Year,AvYear,date):
     '''Kernstück des Modells. Übertragung der Merit-Order(Jahresweise), 
     Jahresverfügbarkeiten und dem jeweils zu berechnenden Datums.
     Im erste Schritt wird der Master und die tagesbezogene MO eingeladen.\n
     Dependence: Get_Master(), MO_daily() und wird aufgerufen von Store()
     '''
     
-    Master = ModS.Get_Master(date)
-    MO_Av  = ModS.Get_ActivePlants(MO_Year,AvYear,date)
+    Master = mod_s.get_master(date)
+    MO_Av  = mod_s.get_active_plants(MO_Year,AvYear,date)
     
     #ModLa = np.round(Master['Load']*(1/0.86)-Master[Sub].sum(axis=1)+Master[Add].sum(axis=1),decimals=1)
     kon = ['coal','gas','lignite','oil','other','pumped-storage','run-of-the-river',
@@ -101,12 +101,12 @@ def Verteilung(MO_Year,AvYear,date):
     Wasser = ['pumped-storage','run-of-the-river','seasonal-store']
     ColSe =  ['Last*','Import','Export','Biomasse','Wasser','Wind','Solar','Kon-Last']
     
-    Bio = ModS.Biogas(Master.index, date)
+    Bio = mod_s.biogas(Master.index, date)
 
     '''Im dritten Schritt werden die Gesamtlastdaten über die Funktion 
-    Load_func gerpüft und notfalls aufgefüllt.'''
+    load_func gerpüft und notfalls aufgefüllt.'''
     
-    Load = Load_func(Master, kon)*(1/0.86)
+    Load = load_func(Master, kon)*(1/0.86)
 
     '''Im vierten Schritt wird der DataFrame zur Berechnung erstellt und die 
     Daten aus de Master eingefügt. Wobei sich die konventionelle Last wie folgt
@@ -192,42 +192,43 @@ def Verteilung(MO_Year,AvYear,date):
     return Mod_Master
 
 
-def Store_func(year):
+def store_func(year):
     '''Aktiviert die einzelen Fuktionen und speichert die Daten der Berechnung
     jahreweise ab. Ist somit auch leicht abänderbar in eine tägliche 
     Berechnungsstruktur.\n
     Dependence: Get_Available(), MeritOrder()
     '''
-    AvYear  = ModS.Get_Available(year)
-    MO_Year = ModS.MeritOrder(year)
+    AvYear  = mod_s.get_available(year)
+    MO_Year = mod_s.merit_order(year)
     
     month, day = 1, 1
     
     Day = dt.datetime(year, month, day)
     Endyear = dt.datetime(year+1, month, day)
     
-    Datpath = path + 'Daten/Modell Daten/Test XXV/' + str(year)
+    Datpath = path + '/Daten/Modell Daten/Test XXV/' + str(year)
 
     try:
         os.makedirs(Datpath)
     except OSError:
         pass
+    try:
+        while Day < Endyear:
+            month, day = Day.month, Day.day
+            fileName = Datpath + '/' + dt.datetime.strftime(Day,'%Y%m%d')+'-Modell_Master.csv'
     
-    while Day < Endyear:
-        month, day = Day.month, Day.day
-        fileName = Datpath + '/' + dt.datetime.strftime(Day,'%Y%m%d')+'-Modell_Master.csv'
-
-        if os.path.isfile(fileName) == True:
-            print (dt.datetime.strftime(Day, '%Y %m %d'),'existing.')
-            pass
-        else:
-            data = Verteilung(MO_Year,AvYear,Day)
-            data.to_csv(fileName, sep=',', header = True)
-            print (dt.datetime.strftime(Day, '%Y %m %d'),'done.')
-            
-        Day += dt.timedelta(days=1)
-
+            if os.path.isfile(fileName) == True:
+                print (dt.datetime.strftime(Day, '%Y %m %d'),'existing.')
+                pass
+            else:
+                data = verteilung(MO_Year,AvYear,Day)
+                data.to_csv(fileName, sep=',', header = True)
+                print (dt.datetime.strftime(Day, '%Y %m %d'),'done.')
+                
+            Day += dt.timedelta(days=1)
+    except KeyboardInterrupt:
+        print ('Keyboard interrupted exit')
 
 def store():
     for o in [2013,2014,2015]:
-        Store_func(o)
+        store_func(o)

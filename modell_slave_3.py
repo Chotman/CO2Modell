@@ -2,16 +2,15 @@
 """
 Created on Fri Jun 10 15:16:23 2016
 
-@author: felixstoeckmann
+@author: felix
 """
 
 import numpy as np
 import pandas as pd
 import datetime as dt
-#import pytz
 import os
 
-path = '/Volumes/Macintosh_HD/Users/felixstoeckmann/Cloudstation/Modell/'
+path = os.path.dirname(os.path.realpath(__file__))
 ZP = 5 #Zertifikatskosten
 
 Emis   = {'Erdgas':0.202,'Steinkohle':0.339,'Braunkohle':0.404,'Minaraloel':0.28, 
@@ -29,14 +28,14 @@ Fuktionen noch weitere Dateispezifische Prozesse vollzogen.
 '''
 ###############################################################################
 
-def Get_Available(year):
+def get_available(year):
     '''Liest die Liste der Verfügbaren Kraftwerksleistungen nach Energieträger
     ein. Die Liste liegt als CSV-Datei vor. Und muss so an einem Ort zur 
     verfügung gestellt werden, das programm kümmersich nicht selbständig um die
     Beschaffung.\n
     Dependence: Keine, muss aufgerufen werden. Gilt als Eingang von Verteilung()
     '''
-    AvPath = path + 'Daten/Kraftwerke/Available/'
+    AvPath = path + '/Daten/Kraftwerke/Available/'
     AvCap = os.listdir(AvPath)
     for y in AvCap:
         if y[:4] == str(year):
@@ -62,7 +61,7 @@ def Get_Available(year):
     return AvYear
 
 
-def Get_Master(date):
+def get_master(date):
     '''Die Funktion list einen gewünschte MasterMix CSV-Datei. Diese wurde 
     bereits, in einem anderen Programmteil zusaen gestellt und auf dem Laufwerk
     abgelegt.\n
@@ -70,7 +69,7 @@ def Get_Master(date):
     '''
     year = date.year
 
-    fname  = path +'Daten/MasterMix/'+str(year) + '/' + dt.datetime.strftime(date,'%Y%m%d')+'-Master.csv'
+    fname  = path +'/Daten/MasterMix/'+str(year) + '/' + dt.datetime.strftime(date,'%Y%m%d')+'-Master.csv'
     
     Master = pd.read_csv(fname, sep = ',', index_col = [0])
     startdate =  dt.datetime.strptime(Master.index[0][:19],'%Y-%m-%d %H:%M:%S')
@@ -81,12 +80,12 @@ def Get_Master(date):
     return Master
 
 
-def Get_YearlyActivePlants(year):
+def get_yearly_active_plants(year):
     '''Die Funktion liest die Matser-Kraftwerksliste der aktiven Kraftwerke ein.
     Dependence: Keine, wird aufgerufen von Verteilung()
     '''    
 
-    Plants = pd.read_csv(path + 'Daten/Kraftwerke/Kranftwerksliste_Master.csv')
+    Plants = pd.read_csv(path + '/Daten/Kraftwerke/Kranftwerksliste_Master.csv')
 
     for i in range(0,len(Plants)):
         Plants.at[i ,'Baujahr'] = float(Plants.at[i,'Baujahr'])
@@ -109,16 +108,16 @@ def Get_YearlyActivePlants(year):
 
 
 
-def Get_ActivePlants(MO_Year,AvYear,date):
+def get_active_plants(MO_Year,AvYear,date):
     '''Die Funktion liest die modifizierte Master-Kraftwerksliste ein und 
     beschneidet sie nach Jahr und Betriebszustand.
     Dependence: MO_daily, wird aufgerufen von MeritOrder()
     '''
-    MO_Av = MO_daily(MO_Year,AvYear,date)
+    MO_Av = mo_daily(MO_Year,AvYear,date)
     
     try:
         NewDate = date + dt.timedelta(days = -1)
-        AktivName = path + 'Daten/Kraftwerke/Temp/'+ dt.datetime.strftime(NewDate,'%Y%m%d')+'_Aktiv_Plants.csv'
+        AktivName = path + '/Daten/Kraftwerke/Temp/'+ dt.datetime.strftime(NewDate,'%Y%m%d')+'_Aktiv_Plants.csv'
         Aktive = pd.read_csv(AktivName)
         MO_Av['Aktiv'] = 'N'
         
@@ -140,7 +139,7 @@ def Get_ActivePlants(MO_Year,AvYear,date):
     return MO_Av
 
 
-def Grenzkosten(Plant):
+def grenzkosten(Plant):
     '''Die Funktion berechnet die Grenzkosten eines Kraftwerks. Die Berechnung
     stütz sich auf den Energieträger und die Größe des jeweiligen Kraftwerkes,
     nur bei Gaskraftweken kommt es zu einer weiteren Unterscheidung
@@ -148,7 +147,7 @@ def Grenzkosten(Plant):
     Betriebskosten(Vk) sind der BA-Stöckmann entnommen.\n
     Dependence: Keine, wird aufgerufen von MeritOrder()
     '''
-    def Gk_func(Et,Ar,LG):
+    def gk_func(Et,Ar,LG):
         Emissionen  = {'Erdgas':0.202, 'Steinkohle':0.339, 
                        'Braunkohle':0.404, 'Minaraloel':5}
 
@@ -196,17 +195,17 @@ def Grenzkosten(Plant):
     Ar = Plant['Kraftwerksart']
     LG = Plant['Leistung']
     
-    GK,Wg = Gk_func(Et,Ar,LG)
+    GK,Wg = gk_func(Et,Ar,LG)
     
     return (GK,Wg)
 
 
-def MeritOrder(year):
+def merit_order(year):
     '''Erstellt aus der Kraftwerksliste die Merit-Order und wählt die Kraftweke 
     zum KWK-Betrieb aus die mit Vorrang in das Netz speisen.\n
     Dependence: Get_YearlyActivePlants(), Grenzkosten()
     '''
-    NewP = Get_YearlyActivePlants(year)
+    NewP = get_yearly_active_plants(year)
     
     col  = list(NewP.columns) + list(['Grenzkosten','Wirkungsgrad'])
     MO_Year = pd.DataFrame(columns = col)
@@ -214,8 +213,8 @@ def MeritOrder(year):
     for i in NewP.index:
         Plant = NewP.iloc[i]
         try:
-            GK = float("%.2f"%Grenzkosten(Plant)[0])
-            Wg = float("%.4f"%Grenzkosten(Plant)[1])
+            GK = float("%.2f"%grenzkosten(Plant)[0])
+            Wg = float("%.4f"%grenzkosten(Plant)[1])
             GkP = np.append(Plant.values, [GK, Wg])
             d = pd.DataFrame(data = [GkP],columns = col,index = None)
             MO_Year  = MO_Year.append([d])
@@ -229,7 +228,7 @@ def MeritOrder(year):
     return MO_Year
 
 
-def MO_daily(MO_Year,AvYear,date):
+def mo_daily(MO_Year,AvYear,date):
     '''Erstellt eine täglich neu berechnete MO mit sich ändernden KWK- und \n 
     Gesamtverfügbarkeiten. Wobei Gas und Steinkohle künstlich erhöht werden \n
     Dependence: Keine, wird aufgerufen von Verteilung()
@@ -380,7 +379,7 @@ def MO_daily(MO_Year,AvYear,date):
     return MO_Av
 
 
-def Biogas(index,date):
+def biogas(index,date):
     '''Berechnet die Leistung der Biogasanlagen.
     Dependence: keine
     '''    
