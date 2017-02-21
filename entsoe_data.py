@@ -10,7 +10,6 @@ import pandas as pd
 import numpy as np
 import bs4 as bs
 import requests
-import os.path
 import datetime as dt
 import pytz
 
@@ -19,16 +18,29 @@ year,month,day = 2017,2,20
 date = tz.localize(dt.datetime(year,month,day))
 
 
+def master_file(date):
+    index = index_day(year,month,day,'')
+    master_df = pd.DataFrame(index = index,columns = ['day_ahead','actual'])
+    load_df = load_crwaler(date)
+    gen_df = gen_crwaler(date)
+    imexport_df = imex_port_crawler(date)
+    
+    master_df = pd.concat([load_df,gen_df,imexport_df[['import','export']]],axis = 1)
+    
+    return master_df
+
 def load_crwaler(date):
     DATE =  dt.datetime.strftime(date,'%d.%m.%Y')
     url = 'https://transparency.entsoe.eu/load-domain/r2/totalLoadR2/show?name=&defaultValue=false&viewType=TABLE&areaType=CTY&atch=false&dateTime.dateTime='+DATE+'+00:00|CET|DAY&biddingZone.values=CTY|10Y1001A1001A83F!CTY|10Y1001A1001A83F&dateTime.timezone=CET_CEST&dateTime.timezone_input=CET+(UTC+1)+/+CEST+(UTC+2)'
     res = requests.get(url)
+    if res.ok == False:
+        print(res)
     html = res.text
     soup = bs.BeautifulSoup(html)
     result = soup.find_all('td' ,{'class': 'first','class':'dv-value-cell',
                                                    'class':'dv-value-cell'})
     crawler_index = index_day(year,month,day,'crawler')
-    crawler_df = pd.DataFrame(index = crawler_index,columns = ['day_ahead','actual'])
+    crawler_df = pd.DataFrame(index = crawler_index,columns = ['load_day_ahead','load_actual'])
 
     l = 0
     for i in range(0,len(result)):
@@ -75,16 +87,16 @@ def gen_crwaler(date):
                                   'class':'dv-value-cell','class':'dv-value-cell',
                                   'class':'dv-value-cell','class':'dv-value-cell'})
     
-    columns = ['biomass_aggreg','biomass_consum','lignite_aggreg','lignite_consum',
-               'deriv_coal_aggreg','deriv_coal_consum','gas_aggreg','gas_consum',
-               'coal_aggreg','coal_consum','oil_aggreg','oil_consum',
-               'shell_oil_aggreg','shell_oil_consum','peat_aggreg','peat_consum',
-               'geotherm_aggreg','geotherm_consum','hps_aggreg','hps_consum',
-               'ror_aggreg','ror_consum','hydro_res_aggreg','hydro_res_consum',
-               'marine_aggreg','marine_consum','nuklear_aggreg','nuklear_consum',
-               'other_aggreg','other_consum','other_ee_aggreg','other_ee_consum',
-               'solar_aggreg','solar_consum','wast_aggreg','wast_consum',
-               'wind_os_aggreg','wind_os_consum','wind_aggreg','wind_consum']
+    columns = ['biomass','biomass_consum','lignite','lignite_consum',
+               'deriv_coal','deriv_coal_consum','gas','gas_consum',
+               'coal','coal_consum','oil','oil_consum',
+               'shell_oil','shell_oil_consum','peat','peat_consum',
+               'geotherm','geotherm_consum','pumped_storage','pumped_storage_consum',
+               'run_of_river','run_of_river_consum','hydro_reservoir','hydro_reservoir_consum',
+               'marine','marine_consum','nuklear','nuklear_consum',
+               'other','other_consum','other_ree','other_ee_consum',
+               'solar','solar_consum','wast','wast_consum',
+               'wind_of_shore','wind_of_shore_consum','wind','wind_consum']
                
     crawler_index = index_day(year,month,day,'crawler')
     crawler_df = pd.DataFrame(index = crawler_index,columns = columns)
@@ -141,8 +153,6 @@ def imex_port_crawler(date):
     imexport_df['import'],imexport_df['export'] = imexport_df[im].sum(axis=1),imexport_df[ex].sum(axis=1)
     
     return imexport_df
-
-
 
 
 def index_day(year, month, day, typ):

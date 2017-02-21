@@ -107,7 +107,6 @@ def get_yearly_active_plants(year):
     return NewP
 
 
-
 def get_active_plants(MO_Year,AvYear,date):
     '''Die Funktion liest die modifizierte Master-Kraftwerksliste ein und 
     beschneidet sie nach Jahr und Betriebszustand.

@@ -10,6 +10,7 @@ import datetime as dt
 import pytz
 import os
 import modell_slave_3 as mod_s
+import entsoe_data as entd
 
 path = os.path.dirname(os.path.realpath(__file__))
 
@@ -30,46 +31,42 @@ Fuktionen noch weitere Dateispezifische Prozesse vollzogen.
 
 
 def load_func(Master,kon):
-    for L in Master.index:
-        if Master.at[L,'Load'] == 'N/A':
-            Master.at[L,'Load'] = np.nan
-        Master.at[L,'Load'] = float(Master.at[L,'Load'])
-
+    
     try:# Erster Versuch: Original Last Daten
-        if all(pd.notnull(Master['Load'])):
-            Load = Master['Load']
-        elif any(pd.notnull(Master['Load'])):
+        if all(pd.notnull(Master['load_actual'])):
+            Load = Master['load_actual']
+        elif any(pd.notnull(Master['load_actual'])):
             raise TypeError
-        elif all(pd.isnull(Master['Load'])):
+        elif all(pd.isnull(Master['load_actual'])):
             raise TypeError
     except TypeError:
-        if all(pd.isnull(Master['Load'])):
+        if all(pd.isnull(Master['load_actual'])):
         # Dritter Versuch: Gesamte Ahead Last Daten
-            if all(pd.notnull(Master['Load Ahead'])):
-                Load = Master['Load Ahead']
-            elif all(pd.isnull(Master['Load Ahead'])):
+            if all(pd.notnull(Master['load_day_ahead'])):
+                Load = Master['load_day_ahead']
+            elif all(pd.isnull(Master['load_day_ahead'])):
                 for l in Master.index:# Letzte Möglichkeit Auffsumation de EEX Energieträger 
                     if pd.isnull(Master.at[l,'Load']):
-                        Master.at[l,'Load'] = Master.ix[l][kon].sum()
-                Load = Master['Load']
+                        Master.at[l,'load_day_ahead'] = Master.ix[l][kon].sum()
+                Load = Master['load_actual']
  
-        if any(pd.isnull(Master['Load'])):
+        if any(pd.isnull(Master['load_actual'])):
             # Zweiter Versuch: Stundenweise Ahead Last Daten oder Interpolieren
-            LineNr = find(pd.isnull(Master['Load']))
+            LineNr = find(pd.isnull(Master['load_actual']))
             for q in LineNr:
                 if pd.isnull(Master.Load.ix[q]):
-                    if pd.isnull(Master['Load Ahead'].ix[q]) or Master['Load Ahead'].ix[q] == 'N/A':
+                    if pd.isnull(Master['load_day_ahead'].ix[q]) or Master['load_day_ahead'].ix[q] == 'N/A':
                         Master.Load = Master['Load'].astype(float).interpolate(method = 'linear')
                     else:
-                        Master.Load.ix[q] = float(Master['Load Ahead'].ix[q])
+                        Master.Load.ix[q] = float(Master['load_day_ahead'].ix[q])
 
-            Load = Master['Load']
+            Load = Master['load_actual']
 
     for hour in Load.index:
         try:
             if (np.abs(Load[hour] - Load[hour-1]) > 15000) or (np.abs(Load[hour] - Load[hour+1]) > 15000):
-                if pd.isnull(Master.at[hour,'Load Ahead']) == False:
-                    Load[hour] = float(Master.at[hour,'Load Ahead'])
+                if pd.isnull(Master.at[hour,'load_day_ahead']) == False:
+                    Load[hour] = float(Master.at[hour,'load_day_ahead'])
                 else:
                     if np.abs(Load[hour] - Load[hour-1]) > 15000:
                         Load[hour] = Load[hour-1]
@@ -91,14 +88,15 @@ def verteilung(MO_Year,AvYear,date):
     Im erste Schritt wird der Master und die tagesbezogene MO eingeladen.\n
     Dependence: Get_Master(), MO_daily() und wird aufgerufen von Store()
     '''
-    
+    Master = entd.master_file(date2)
     Master = mod_s.get_master(date)
     MO_Av  = mod_s.get_active_plants(MO_Year,AvYear,date)
     
     #ModLa = np.round(Master['Load']*(1/0.86)-Master[Sub].sum(axis=1)+Master[Add].sum(axis=1),decimals=1)
-    kon = ['coal','gas','lignite','oil','other','pumped-storage','run-of-the-river',
-           'seasonal-store','uranium','Solar','Wind']
-    Wasser = ['pumped-storage','run-of-the-river','seasonal-store']
+    kon = ['nuklear','coal','deriv_coal','gas','lignite','oil','shell_oil','other','peat',
+           'pumped_storage','run_of_river','hydro_reservoir','solar','wind']
+           
+    Wasser = ['pumped_storage','run_of_river','hydro_reservoir']
     ColSe =  ['Last*','Import','Export','Biomasse','Wasser','Wind','Solar','Kon-Last']
     
     Bio = mod_s.biogas(Master.index, date)
@@ -113,11 +111,11 @@ def verteilung(MO_Year,AvYear,date):
     zusammen setzt: 
     L_kon = L_entsoe * 1/0,86 - EE - Import - Wasser + Export'''
     
-    Sub = ['Import','Wind_Post','Solar_Post','pumped-storage','run-of-the-river','seasonal-store']
-    Add = ['Export']    
+    Sub = ['import','wind','solar','pumped_storage','run_of_river','hydro_reservoir']
+    Add = ['export']    
     
-    ModSeg = pd.concat([Load,Master['Import'],Master['Export'],Bio[0],
-                        Master[Wasser].sum(axis=1),Master['Wind_Post'],Master['Solar_Post'],
+    ModSeg = pd.concat([Load,Master['import'],Master['export'],Bio[0],
+                        Master[Wasser].sum(axis=1),Master['wind'],Master['solar'],
                         Load-Master[Sub].sum(axis=1)-Bio[0]+Master[Add].sum(axis=1)
                        ],axis = 1)
     
