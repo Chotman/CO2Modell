@@ -14,12 +14,10 @@ import datetime as dt
 import pytz
 
 tz = pytz.timezone('Europe/Berlin') 
-year,month,day = 2017,2,20
-date = tz.localize(dt.datetime(year,month,day))
-
+date = tz.localize(dt.datetime.today())
 
 def master_file(date):
-    index = index_day(year,month,day,'')
+    index = index_day(date.year,date.month,date.day,'')
     master_df = pd.DataFrame(index = index,columns = ['day_ahead','actual'])
     load_df = load_crwaler(date)
     gen_df = gen_crwaler(date)
@@ -36,10 +34,10 @@ def load_crwaler(date):
     if res.ok == False:
         print(res)
     html = res.text
-    soup = bs.BeautifulSoup(html)
+    soup = bs.BeautifulSoup(html,'lxml')
     result = soup.find_all('td' ,{'class': 'first','class':'dv-value-cell',
                                                    'class':'dv-value-cell'})
-    crawler_index = index_day(year,month,day,'crawler')
+    crawler_index = index_day(date.year,date.month,date.day,'crawler')
     crawler_df = pd.DataFrame(index = crawler_index,columns = ['load_day_ahead','load_actual'])
 
     l = 0
@@ -52,8 +50,8 @@ def load_crwaler(date):
         if c == 1:
             l += 1
     
-    index = index_day(year,month,day,'')
-    load_df = pd.DataFrame(index = index,columns = ['day_ahead','actual'])
+    index = index_day(date.year,date.month,date.day,'')
+    load_df = pd.DataFrame(index = index,columns = ['load_day_ahead','load_actual'])
     for h in load_df.index:
         for c in load_df.columns:
             load_df.at[h,c] = crawler_df.loc[dt.datetime.strftime(h,'%Y%m%d %H'),c].sum()/4
@@ -65,7 +63,7 @@ def gen_crwaler(date):
     url = 'https://transparency.entsoe.eu/generation/r2/actualGenerationPerProductionType/show?name=&defaultValue=false&viewType=TABLE&areaType=CTY&atch=false&datepicker-day-offset-select-dv-date-from_input=D&dateTime.dateTime=20.02.2017+00:00|CET|DAYTIMERANGE&dateTime.endDateTime='+DATE+'+00:00|CET|DAYTIMERANGE&area.values=CTY|10Y1001A1001A83F!CTY|10Y1001A1001A83F&productionType.values=B01&productionType.values=B02&productionType.values=B03&productionType.values=B04&productionType.values=B05&productionType.values=B06&productionType.values=B07&productionType.values=B08&productionType.values=B09&productionType.values=B10&productionType.values=B11&productionType.values=B12&productionType.values=B13&productionType.values=B14&productionType.values=B20&productionType.values=B15&productionType.values=B16&productionType.values=B17&productionType.values=B18&productionType.values=B19&dateTime.timezone=CET_CEST&dateTime.timezone_input=CET+(UTC+1)+/+CEST+(UTC+2)'
     res = requests.get(url)
     html = res.text
-    soup = bs.BeautifulSoup(html)
+    soup = bs.BeautifulSoup(html,'lxml')
     result = soup.find_all('td' ,{'class':'first','class':'dv-value-cell','class':'dv-value-cell',
                                   'class':'dv-value-cell','class':'dv-value-cell',
                                   'class':'dv-value-cell','class':'dv-value-cell',
@@ -98,7 +96,7 @@ def gen_crwaler(date):
                'solar','solar_consum','wast','wast_consum',
                'wind_of_shore','wind_of_shore_consum','wind','wind_consum']
                
-    crawler_index = index_day(year,month,day,'crawler')
+    crawler_index = index_day(date.year,date.month,date.day,'crawler')
     crawler_df = pd.DataFrame(index = crawler_index,columns = columns)
     l = 0
     for i in range(0,len(result)):
@@ -110,7 +108,7 @@ def gen_crwaler(date):
         if c == 39:
             l += 1
     
-    index = index_day(year,month,day,'')
+    index = index_day(date.year,date.month,date.day,'')
     gen_df = pd.DataFrame(index = index,columns = columns)
     for h in gen_df.index:
         for c in gen_df.columns:
@@ -120,7 +118,7 @@ def gen_crwaler(date):
 
 def imex_port_crawler(date):
     DATE =  dt.datetime.strftime(date,'%d.%m.%Y')
-    imexport_index = index_day(year,month,day,'')
+    imexport_index = index_day(date.year,date.month,date.day,'')
     imexport_df = pd.DataFrame(index =  imexport_index,columns = ['import','export'])
     crossing = ['10YAT-APG------L','10YCZ-CEPS-----N','10Y1001A1001A65H','10YFR-RTE------C', 
                 '10YLU-CEGEDEL-NQ','10YNL----------L','10YPL-AREA-----S','10YSE-1--------K',
@@ -130,10 +128,10 @@ def imex_port_crawler(date):
         url = 'https://transparency.entsoe.eu/transmission-domain/physicalFlow/show?name=&defaultValue=false&viewType=TABLE&areaType=BORDER_CTY&atch=false&dateTime.dateTime='+DATE+'+00:00|CET|DAY&border.values=CTY|10Y1001A1001A83F!CTY_CTY|10Y1001A1001A83F_CTY_CTY|'+cross+'&dateTime.timezone=CET_CEST&dateTime.timezone_input=CET+(UTC+1)+/+CEST+(UTC+2)'
         res = requests.get(url)
         html = res.text
-        soup = bs.BeautifulSoup(html)
+        soup = bs.BeautifulSoup(html,'lxml')
         result = soup.find_all('td' ,{'class': 'first','class':'dv-value-cell',
                                                        'class':'dv-value-cell'})
-        crawler_index = index_day(year,month,day,'')
+        crawler_index = index_day(date.year,date.month,date.day,'')
         crawler_df = pd.DataFrame(index = crawler_index,columns = ['import_'+cross[3:5],
                                                                    'export_'+cross[3:5]])
         im += ['import_'+cross[3:5]]
@@ -154,6 +152,14 @@ def imex_port_crawler(date):
     
     return imexport_df
 
+    
+url = 'https://transparency.entsoe.eu/load-domain/r2/totalLoadR2/show?name=&defaultValue=false&viewType=TABLE&areaType=CTA&atch=false&dateTime.dateTime=22.02.2017+00:00|CET|DAY&biddingZone.values=CTY|10Y1001A1001A83F!CTA|10YDE-VE-------2&dateTime.timezone=CET_CEST&dateTime.timezone_input=CET+(UTC+1)+/+CEST+(UTC+2)#'
+'''
+50H 10YDE-VE-------2 https://transparency.entsoe.eu/load-domain/r2/totalLoadR2/show?name=&defaultValue=false&viewType=TABLE&areaType=CTA&atch=false&dateTime.dateTime=22.02.2017+00:00|CET|DAY&biddingZone.values=CTY|10Y1001A1001A83F!CTA|10YDE-VE-------2&dateTime.timezone=CET_CEST&dateTime.timezone_input=CET+(UTC+1)+/+CEST+(UTC+2)#
+Amp 10YDE-RWENET---I https://transparency.entsoe.eu/load-domain/r2/totalLoadR2/show?name=&defaultValue=false&viewType=TABLE&areaType=CTA&atch=false&dateTime.dateTime=22.02.2017+00:00|CET|DAY&biddingZone.values=CTY|10Y1001A1001A83F!CTA|10YDE-RWENET---I&dateTime.timezone=CET_CEST&dateTime.timezone_input=CET+(UTC+1)+/+CEST+(UTC+2)#
+Ten 10YDE-EON------1 https://transparency.entsoe.eu/load-domain/r2/totalLoadR2/show?name=&defaultValue=false&viewType=TABLE&areaType=CTA&atch=false&dateTime.dateTime=22.02.2017+00:00|CET|DAY&biddingZone.values=CTY|10Y1001A1001A83F!CTA|10YDE-EON------1&dateTime.timezone=CET_CEST&dateTime.timezone_input=CET+(UTC+1)+/+CEST+(UTC+2)#
+TBW 10YDE-ENBW-----N https://transparency.entsoe.eu/load-domain/r2/totalLoadR2/show?name=&defaultValue=false&viewType=TABLE&areaType=CTA&atch=false&dateTime.dateTime=22.02.2017+00:00|CET|DAY&biddingZone.values=CTY|10Y1001A1001A83F!CTA|10YDE-ENBW-----N&dateTime.timezone=CET_CEST&dateTime.timezone_input=CET+(UTC+1)+/+CEST+(UTC+2)#
+'''
 
 def index_day(year, month, day, typ):
     startdate = tz.localize(dt.datetime(year, month, day, hour=0, minute= 0))
